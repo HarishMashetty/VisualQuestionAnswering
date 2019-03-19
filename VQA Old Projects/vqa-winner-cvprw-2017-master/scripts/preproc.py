@@ -6,7 +6,17 @@ import pdb
 import sys
 import csv
 import json
-csv.field_size_limit(sys.maxsize)
+maxInt = sys.maxsize
+while True:
+    # decrease the maxInt value by factor 10 
+    # as long as the OverflowError occurs.
+
+    try:
+        csv.field_size_limit(maxInt)
+        break
+    except OverflowError:
+        maxInt = int(maxInt/10)
+    
 
 import base64
 import pickle
@@ -219,7 +229,7 @@ def process_wemb(idx2word):
     print("Generating pretrained word embedding weights...")
     word2emb = {}
     emb_dim = int(glove_path.split('.')[-2].split('d')[0])
-    with open(glove_path) as f:
+    with open(glove_path, encoding = 'utf-8') as f:
         for entry in f:
             vals = entry.split(' ')
             word = vals[0]
