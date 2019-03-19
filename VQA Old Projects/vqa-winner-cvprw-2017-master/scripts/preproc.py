@@ -136,8 +136,8 @@ def _process_digit_article(inText):
 
 def process_a(freq_thr=9):
 
-    ta = json.load(open(ta_path))['annotations']
-    va = json.load(open(va_path))['annotations']
+    ta = json.load(open(ta_path), encoding = 'utf-8')['annotations']
+    va = json.load(open(va_path), encoding = 'utf-8')['annotations']
     annos = ta + va
 
     print("Calculating the frequency of each multiple choice answer...")
@@ -250,23 +250,25 @@ def process_vfeats():
     vq = json.load(open(vq_path))['questions']
     tids = set([q['image_id'] for q in tq])
     vids = set([q['image_id'] for q in vq])
+    tids_ = list(tids)[:20000]
+    vids_ = list(vids)[:20000]
 
     print("Reading tsv, total iterations: {}".format(len(tids)+len(vids)))
     tvfeats = {}
     vvfeats = {}
-    with open(vfeats_path) as tsv_in_file:
+    with open(vfeats_path, encoding='utf-8') as tsv_in_file:
         reader = csv.DictReader(tsv_in_file, delimiter='\t', fieldnames=FIELDNAMES)
         for i, item in enumerate(tqdm(reader)):
             image_id = int(item['image_id'])
             feats = np.frombuffer(base64.b64decode(item['features']), 
                 dtype=np.float32).reshape((int(item['num_boxes']), -1))
 
-            if image_id in tids:
+            if image_id in tids_:
                 tvfeats[image_id] = feats
-            elif image_id in vids:
+            elif image_id in vids_:
                 vvfeats[image_id] = feats
-            else:
-                raise ValueError("Image_id: {} not in training or validation set".format(image_id))
+            # else:
+            #     raise ValueError("Image_id: {} not in training or validation set".format(image_id))
 
     print("Converting tsv to pickle... This will take a while")
     pickle.dump(tvfeats, open(os.path.join('data', 'train_vfeats.pkl'), 'wb'))
@@ -274,8 +276,8 @@ def process_vfeats():
 
 
 if __name__ == '__main__':
-    targets = process_a()
-    idx2word = process_qa(targets)
-    process_wemb(idx2word)
-    #process_vfeats()
+    # targets = process_a()
+    # idx2word = process_qa(targets)
+    # process_wemb(idx2word)
+    process_vfeats()
     print("Done")

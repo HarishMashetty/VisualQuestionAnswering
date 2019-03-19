@@ -30,6 +30,7 @@ class VQAv2(Dataset):
         print("Setting up everything... ({})".format(prefix))
         self.vqas = []
         for qa in tqdm(qas):
+            seqlen = len(qa['question_toked'])
             que = np.ones(seqlen, dtype=np.int64) * len(word2idx)
             for i, word in enumerate(qa['question_toked']):
                 if word in word2idx:
@@ -39,13 +40,14 @@ class VQAv2(Dataset):
             for a, s in qa['answer']:
                 ans[ans2idx[a]] = s
 
-            self.vqas.append({
-                'v': vfeats[qa['image_id']],
-                'q': que,
-                'a': ans,
-                'q_txt': qa['question'],
-                'a_txt': qa['answer']
-            })
+            if qa['image_id'] in list(vfeats.keys()):
+                self.vqas.append({
+                    'v': vfeats[qa['image_id']],
+                    'q': que,
+                    'a': ans,
+                    'q_txt': qa['question'],
+                    'a_txt': qa['answer']
+                })
 
     def __len__(self):
         return len(self.vqas)

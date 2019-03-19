@@ -58,3 +58,8 @@ VQA Old Projects/vqa-winner-cvprw-2017-master/data/zips/trainval_36.zip
 VQA Old Projects/vqa-winner-cvprw-2017-master/data/zips/v2_Annotations_Train_mscoco.zip
 VQA Old Projects/vqa-winner-cvprw-2017-master/data/zips/v2_Annotations_Val_mscoco.zip
 VQA Old Projects/vqa-winner-cvprw-2017-master/data/zips/v2_Questions_Train_mscoco.zip
+VQA Old Projects/vqa-winner-cvprw-2017-master/data/trainval_resnet101_faster_rcnn_genome_36.tsv
+VQA Old Projects/vqa-winner-cvprw-2017-master/data/val_vfeats.pkl
+VQA Old Projects/vqa-winner-cvprw-2017-master/data/train_vfeats.pkl
+VQA Old Projects/vqa-winner-cvprw-2017-master/__pycache__/main.cpython-36.pyc
+VQA Old Projects/vqa-winner-cvprw-2017-master/.vscode/launch.json

@@ -95,7 +95,6 @@ def train(train_loader, model, optim, epoch, device, logger):
 
 
 def main():
-
     args, unparsed = FLAGS.parse_known_args()
     if len(unparsed) != 0:
         raise NameError("Argument {} not recognized".format(unparsed))
@@ -145,6 +144,7 @@ def main():
         train(train_loader, model, optim, epoch, device, logger)
         score = evaluate(val_loader, model, epoch, device, logger)
         bscore = save_ckpt(score, bscore, epoch, model, optim, args.save, logger)
+        print("Epoch: {}; Score: {}; bScore: {}".format(epoch, score, bscore))
 
     logger.loginfo("Done")
 
