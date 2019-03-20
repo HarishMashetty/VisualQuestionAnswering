@@ -27,6 +27,7 @@ nltk.data.path.append('data')
 nltk.download('punkt', download_dir='data')
 from nltk.tokenize import word_tokenize
 from tqdm import tqdm
+from sklearn.externals import joblib
 
 ta_path = os.path.join('data', 'v2_mscoco_train2014_annotations.json')
 va_path = os.path.join('data', 'v2_mscoco_val2014_annotations.json')
@@ -250,8 +251,8 @@ def process_vfeats():
     vq = json.load(open(vq_path))['questions']
     tids = set([q['image_id'] for q in tq])
     vids = set([q['image_id'] for q in vq])
-    tids_ = list(tids)[:20000]
-    vids_ = list(vids)[:20000]
+    # tids_ = list(tids)[:20000]
+    # vids_ = list(vids)[:20000]
 
     print("Reading tsv, total iterations: {}".format(len(tids)+len(vids)))
     tvfeats = {}
@@ -263,21 +264,21 @@ def process_vfeats():
             feats = np.frombuffer(base64.b64decode(item['features']), 
                 dtype=np.float32).reshape((int(item['num_boxes']), -1))
 
-            if image_id in tids_:
+            if image_id in tids:
                 tvfeats[image_id] = feats
-            elif image_id in vids_:
+            elif image_id in vids:
                 vvfeats[image_id] = feats
-            # else:
-            #     raise ValueError("Image_id: {} not in training or validation set".format(image_id))
+            else:
+                raise ValueError("Image_id: {} not in training or validation set".format(image_id))
 
     print("Converting tsv to pickle... This will take a while")
-    pickle.dump(tvfeats, open(os.path.join('data', 'train_vfeats.pkl'), 'wb'))
-    pickle.dump(vvfeats, open(os.path.join('data', 'val_vfeats.pkl'), 'wb'))
+    joblib.dump(tvfeats, open(os.path.join('data', 'train_vfeats.pkl'), 'wb'))
+    joblib.dump(vvfeats, open(os.path.join('data', 'val_vfeats.pkl'), 'wb'))
 
 
 if __name__ == '__main__':
-    # targets = process_a()
-    # idx2word = process_qa(targets)
-    # process_wemb(idx2word)
+    targets = process_a()
+    idx2word = process_qa(targets)
+    process_wemb(idx2word)
     process_vfeats()
     print("Done")
