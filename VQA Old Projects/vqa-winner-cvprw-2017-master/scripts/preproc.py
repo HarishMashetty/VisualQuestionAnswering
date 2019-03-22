@@ -27,7 +27,7 @@ nltk.data.path.append('data')
 nltk.download('punkt', download_dir='data')
 from nltk.tokenize import word_tokenize
 from tqdm import tqdm
-# from sklearn.externals import joblib
+from sklearn.externals import joblib
 
 ta_path = os.path.join('data', 'v2_mscoco_train2014_annotations.json')
 va_path = os.path.join('data', 'v2_mscoco_val2014_annotations.json')
@@ -272,8 +272,8 @@ def process_vfeats():
                 raise ValueError("Image_id: {} not in training or validation set".format(image_id))
 
     print("Converting tsv to pickle... This will take a while")
-    pickle.dump(tvfeats, open(os.path.join('data', 'train_vfeats.pkl'), 'wb'))
-    pickle.dump(vvfeats, open(os.path.join('data', 'val_vfeats.pkl'), 'wb'))
+    joblib.dump(tvfeats, open(os.path.join('data', 'train_vfeats.pkl'), 'wb'))
+    joblib.dump(vvfeats, open(os.path.join('data', 'val_vfeats.pkl'), 'wb'))
 
 
 if __name__ == '__main__':
