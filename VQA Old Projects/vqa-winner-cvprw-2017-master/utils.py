@@ -95,7 +95,8 @@ class GOATLogger:
 
 def compute_score(logits, labels):
     logits = torch.max(logits, 1)[1].data
-    one_hots = torch.zeros(*labels.size()).cuda()
+    one_hots = torch.zeros(*labels.size())
+    # one_hots = torch.zeros(*labels.size()).cuda()
     one_hots.scatter_(1, logits.view(-1, 1), 1)
     score = (one_hots * labels)
     return score.cpu().numpy().sum() / logits.shape[0]

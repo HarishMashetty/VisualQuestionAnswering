@@ -34,7 +34,7 @@ class VQAv2(Dataset):
             seqlen = len(qa['question_toked'])
             que = np.ones(seqlen, dtype=np.int64) * len(word2idx)
             for i, word in enumerate(qa['question_toked']):
-                if word in word2idx:
+                if word in word2idx and i < 14:
                     que[i] = word2idx[word]
 
             ans = np.zeros(len(idx2ans), dtype=np.float32)
