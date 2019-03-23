@@ -34,7 +34,7 @@ va_path = os.path.join('data', 'v2_mscoco_val2014_annotations.json')
 tq_path = os.path.join('data', 'v2_OpenEnded_mscoco_train2014_questions.json')
 vq_path = os.path.join('data', 'v2_OpenEnded_mscoco_val2014_questions.json')
 glove_path = os.path.join('data', 'glove', 'glove.6B.300d.txt')
-vfeats_path = os.path.join('data', 'trainval_resnet101_faster_rcnn_genome_36.tsv')
+vfeats_path = os.path.join('data', 'trainval_resnet101_faster_rcnn_genome_36_25.tsv')
 
 contractions = {
     "aint": "ain't", "arent": "aren't", "cant": "can't", "couldve":
@@ -251,8 +251,6 @@ def process_vfeats():
     vq = json.load(open(vq_path))['questions']
     tids = set([q['image_id'] for q in tq])
     vids = set([q['image_id'] for q in vq])
-    # tids_ = list(tids)[:20000]
-    # vids_ = list(vids)[:20000]
 
     print("Reading tsv, total iterations: {}".format(len(tids)+len(vids)))
     tvfeats = {}

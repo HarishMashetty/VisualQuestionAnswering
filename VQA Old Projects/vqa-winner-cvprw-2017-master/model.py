@@ -65,8 +65,8 @@ class Model(nn.Module):
         concated = torch.cat((image, qenc_reshape), -1)                 # (batch, 36, 2048 + hid_dim)
         concated = torch.mul(torch.tanh(self.gth_iatt(concated)), torch.sigmoid(self.gthp_iatt(concated)))
         a = self.att(concated)                              # (batch, 36, 1)
-        a = F.softmax(a.squeeze(), dim=1)                   # (batch, 36)
-        v_head = torch.bmm(a.unsqueeze(1), image).squeeze() # (batch, 2048)
+        a = F.softmax(a.squeeze(2), dim=1)                   # (batch, 36)
+        v_head = torch.bmm(a.unsqueeze(1), image).squeeze(1) # (batch, 2048)
 
         # element-wise (question + image) multiplication
         q = torch.mul(torch.tanh(self.gth_q(qenc)), torch.sigmoid(self.gthp_q(qenc)))
