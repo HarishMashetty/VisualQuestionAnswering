@@ -39,13 +39,13 @@ FLAGS.add_argument('--wemb-init', type=str,
 # Others
 FLAGS.add_argument('--cpu', action='store_true',
                    help="Set this to use CPU, default use CUDA")
-FLAGS.add_argument('--n-workers', type=int, default=2,
+FLAGS.add_argument('--n-workers', type=int, default = 100,
                    help="How many processes for preprocessing")
 FLAGS.add_argument('--pin-mem', type=bool, default=False,
                    help="DataLoader pin memory or not")
-FLAGS.add_argument('--log-freq', type=int, default=100,
+FLAGS.add_argument('--log-freq', type=int, default = 100,
                    help="Logging frequency")
-FLAGS.add_argument('--seed', type=int, default=420,
+FLAGS.add_argument('--seed', type=int, default = 420,
                    help="Random seed")
 
 
