@@ -31,7 +31,7 @@ class VQAv2(Dataset):
         print("Setting up everything... ({})".format(prefix))
         self.vqas = []
         for qa in tqdm(qas):
-            seqlen = len(qa['question_toked'])
+            seqlen = 14
             que = np.ones(seqlen, dtype=np.int64) * len(word2idx)
             for i, word in enumerate(qa['question_toked']):
                 if word in word2idx and i < 14:
