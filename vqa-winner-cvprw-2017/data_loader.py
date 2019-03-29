@@ -8,6 +8,7 @@ import torch
 from torch.utils.data import Dataset
 import numpy as np
 from tqdm import tqdm
+from sklearn.externals import joblib
 
 class VQAv2(Dataset):
 
@@ -25,7 +26,7 @@ class VQAv2(Dataset):
         qas = pickle.load(open(os.path.join(root, prefix + '_qa.pkl'), 'rb'))
         idx2word, word2idx = pickle.load(open(os.path.join(root, 'dict_q.pkl'), 'rb'))
         idx2ans, ans2idx = pickle.load(open(os.path.join(root, 'dict_ans.pkl'), 'rb'))
-        vfeats = pickle.load(open(os.path.join(root, prefix + '_vfeats.pkl'), 'rb'))
+        vfeats = joblib.load(open(os.path.join(root, prefix + '_vfeats.pkl'), 'rb'))
 
         print("Setting up everything... ({})".format(prefix))
         self.vqas = []
