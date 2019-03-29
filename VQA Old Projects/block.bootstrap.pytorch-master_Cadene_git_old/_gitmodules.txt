@@ -1,3 +1,0 @@
-[submodule "external/VQA"]
-	path = block/external/VQA
-	url = https://github.com/Cadene/VQA.git
