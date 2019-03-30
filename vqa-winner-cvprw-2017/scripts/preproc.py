@@ -268,5 +268,5 @@ if __name__ == '__main__':
     targets = process_a()
     idx2word = process_qa(targets)
     process_wemb(idx2word)
-    #process_vfeats()
+    process_vfeats()
     print("Done")
