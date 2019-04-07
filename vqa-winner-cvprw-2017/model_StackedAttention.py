@@ -54,12 +54,11 @@ class Model(nn.Module):
         question -> shape (batch, 14)
         image -> shape (batch, 36, 2048)
         """
+        # question encoding
+        emb = self.wembed(question)                 # (batch, seqlen, emb_dim)
+        enc, hid = self.gru(emb.permute(1, 0, 2))   # (seqlen, batch, hid_dim)
+        qenc = enc[-1]                              # (batch, hid_dim)
         for i in range(2):
-            # question encoding
-            emb = self.wembed(question)                 # (batch, seqlen, emb_dim)
-            enc, hid = self.gru(emb.permute(1, 0, 2))   # (seqlen, batch, hid_dim)
-            qenc = enc[-1]                              # (batch, hid_dim)
-            
             # image attention
             qenc_reshape = qenc.repeat(1, 36).view(-1, 36, self.hid_dim)    # (batch, 36, hid_dim)
             image = F.normalize(image, -1)                                  # (batch, 36, 2048)
@@ -71,7 +70,7 @@ class Model(nn.Module):
 
             # element-wise (question + image) multiplication
             v = torch.mul(torch.tanh(self.gth_i(v_head)), torch.sigmoid(self.gthp_i(v_head)))
-            question = v + question
+            qenc = v + qenc
             
         q = torch.mul(torch.tanh(self.gth_q(qenc)), torch.sigmoid(self.gthp_q(qenc)))
         h = torch.mul(q, v) # (batch, hid_dim)
