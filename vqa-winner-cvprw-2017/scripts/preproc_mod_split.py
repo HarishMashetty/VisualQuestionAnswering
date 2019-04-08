@@ -136,7 +136,7 @@ def process_a(freq_thr=9):
     mca_freqs = {}
 
     for anno in tqdm(annos_0):
-        if anno['image_id']%13==3:
+        if anno['image_id']%7==3:
             annos.append(anno)
 
     for anno in tqdm(annos):
@@ -201,11 +201,11 @@ def process_qa(targets, max_words=14):
 
     qs=[]
     for qs_i in tqdm(tq_0):
-        if qs_i['image_id']%13==3:
+        if qs_i['image_id']%7==3:
             tq.append(qs_i)
 
     for qs_i in tqdm(vq_0):
-        if qs_i['image_id']%13==3:
+        if qs_i['image_id']%7==3:
             vq.append(qs_i)
 
     qs = tq + vq
@@ -260,8 +260,8 @@ def process_vfeats():
     vq = json.load(open(vq_path))['questions']
     #tids = set([q['image_id'] for q in tq])
     #vids = set([q['image_id'] for q in vq])
-    tids = set([ q['image_id'] for q in tq if q['image_id']%13==3])
-    vids = set([ q['image_id'] for q in vq if q['image_id']%13==3])
+    tids = set([ q['image_id'] for q in tq if q['image_id']%7==3])
+    vids = set([ q['image_id'] for q in vq if q['image_id']%7==3])
 
     print("Reading tsv, total iterations: {}".format(len(tids)+len(vids)))
     tvfeats = {}
@@ -270,7 +270,7 @@ def process_vfeats():
         reader = csv.DictReader(tsv_in_file, delimiter='\t', fieldnames=FIELDNAMES)
         for i, item in enumerate(tqdm(reader)):
             image_id = int(item['image_id'])
-            if image_id%13!=3:
+            if image_id%7!=3:
                 continue
             feats = np.frombuffer(base64.b64decode(item['features']), 
                 dtype=np.float32).reshape((int(item['num_boxes']), -1))
