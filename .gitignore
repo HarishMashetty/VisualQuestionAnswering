@@ -1,2 +1,5 @@
 ﻿/.vs
 /vqa-winner-cvprw-2017/data
+vqa-winner-cvprw-2017/log_stackedattention/best.pth.tar
+vqa-winner-cvprw-2017/log_stackedattention_2layers/best.pth.tar
+vqa-winner-cvprw-2017/log_stackedattention_3layers/best.pth.tar
