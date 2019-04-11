@@ -1,0 +1,1279 @@
+Apr-11 06:02:28.925 - Logger created at log/console.log
+Apr-11 06:08:07.838 - Parameters: 13.479M
+Apr-11 06:08:45.239 - [  1][ 100/ 867] time for data/train: 0.0188/0.3487, loss: 1087.7429, score:  0.000
+Apr-11 06:08:46.852 - update_title_pos
+Apr-11 06:08:47.049 - findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to Liberation Sans ('/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf') with score of 2.050000.
+Apr-11 06:08:47.194 - findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to Liberation Sans ('/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf') with score of 2.050000.
+Apr-11 06:08:47.238 - update_title_pos
+Apr-11 06:08:47.288 - update_title_pos
+Apr-11 06:08:47.350 - update_title_pos
+Apr-11 06:09:23.144 - [  1][ 200/ 867] time for data/train: 0.0194/0.3487, loss: 1089.4323, score:  0.000
+Apr-11 06:09:23.182 - update_title_pos
+Apr-11 06:09:23.273 - update_title_pos
+Apr-11 06:09:23.339 - update_title_pos
+Apr-11 06:09:23.407 - update_title_pos
+Apr-11 06:09:59.369 - [  1][ 300/ 867] time for data/train: 0.0197/0.3537, loss: 1087.8269, score:  0.140
+Apr-11 06:09:59.395 - update_title_pos
+Apr-11 06:09:59.498 - update_title_pos
+Apr-11 06:09:59.568 - update_title_pos
+Apr-11 06:09:59.665 - update_title_pos
+Apr-11 06:10:35.874 - [  1][ 400/ 867] time for data/train: 0.0183/0.3366, loss: 1086.3337, score:  0.137
+Apr-11 06:10:35.896 - update_title_pos
+Apr-11 06:10:35.975 - update_title_pos
+Apr-11 06:10:36.029 - update_title_pos
+Apr-11 06:10:36.101 - update_title_pos
+Apr-11 06:11:12.759 - [  1][ 500/ 867] time for data/train: 0.0185/0.3480, loss: 1088.7991, score:  0.106
+Apr-11 06:11:12.780 - update_title_pos
+Apr-11 06:11:12.851 - update_title_pos
+Apr-11 06:11:12.899 - update_title_pos
+Apr-11 06:11:12.963 - update_title_pos
+Apr-11 06:11:49.574 - [  1][ 600/ 867] time for data/train: 0.0184/0.3541, loss: 1087.7336, score:  0.119
+Apr-11 06:11:49.596 - update_title_pos
+Apr-11 06:11:49.676 - update_title_pos
+Apr-11 06:11:49.728 - update_title_pos
+Apr-11 06:11:49.793 - update_title_pos
+Apr-11 06:12:26.189 - [  1][ 700/ 867] time for data/train: 0.0184/0.3481, loss: 1088.2380, score:  0.170
+Apr-11 06:12:26.214 - update_title_pos
+Apr-11 06:12:26.301 - update_title_pos
+Apr-11 06:12:26.360 - update_title_pos
+Apr-11 06:12:26.435 - update_title_pos
+Apr-11 06:13:03.607 - [  1][ 800/ 867] time for data/train: 0.0197/0.3672, loss: 1087.4789, score:  0.184
+Apr-11 06:13:03.636 - update_title_pos
+Apr-11 06:13:03.726 - update_title_pos
+Apr-11 06:13:03.792 - update_title_pos
+Apr-11 06:13:03.874 - update_title_pos
+Apr-11 06:13:28.794 - [  1][ 867/ 867] time for data/train: 0.0184/0.2665, loss: 1086.1274, score:  0.152
+Apr-11 06:13:28.823 - update_title_pos
+Apr-11 06:13:28.908 - update_title_pos
+Apr-11 06:13:28.970 - update_title_pos
+Apr-11 06:13:29.043 - update_title_pos
+Apr-11 06:14:53.998 - [  1]* Evaluation - score: 0.340 *
+Apr-11 06:14:54.027 - update_title_pos
+Apr-11 06:14:54.131 - update_title_pos
+Apr-11 06:14:54.195 - update_title_pos
+Apr-11 06:14:54.276 - update_title_pos
+Apr-11 06:14:55.805 - * This is the best score so far. *
+
+Apr-11 06:15:34.521 - [  2][ 100/ 867] time for data/train: 0.0200/0.3691, loss: 1087.6285, score:  0.184
+Apr-11 06:15:34.610 - update_title_pos
+Apr-11 06:15:34.715 - update_title_pos
+Apr-11 06:15:34.779 - update_title_pos
+Apr-11 06:15:34.864 - update_title_pos
+Apr-11 06:16:12.019 - [  2][ 200/ 867] time for data/train: 0.0208/0.3517, loss: 1089.2043, score:  0.173
+Apr-11 06:16:12.052 - update_title_pos
+Apr-11 06:16:12.148 - update_title_pos
+Apr-11 06:16:12.216 - update_title_pos
+Apr-11 06:16:12.294 - update_title_pos
+Apr-11 06:16:49.071 - [  2][ 300/ 867] time for data/train: 0.0175/0.3480, loss: 1087.1467, score:  0.179
+Apr-11 06:16:49.107 - update_title_pos
+Apr-11 06:16:49.190 - update_title_pos
+Apr-11 06:16:49.256 - update_title_pos
+Apr-11 06:16:49.328 - update_title_pos
+Apr-11 06:17:26.636 - [  2][ 400/ 867] time for data/train: 0.0178/0.3489, loss: 1087.2780, score:  0.179
+Apr-11 06:17:26.669 - update_title_pos
+Apr-11 06:17:26.759 - update_title_pos
+Apr-11 06:17:26.830 - update_title_pos
+Apr-11 06:17:26.901 - update_title_pos
+Apr-11 06:18:04.352 - [  2][ 500/ 867] time for data/train: 0.0195/0.3642, loss: 1087.4419, score:  0.173
+Apr-11 06:18:04.386 - update_title_pos
+Apr-11 06:18:04.481 - update_title_pos
+Apr-11 06:18:04.551 - update_title_pos
+Apr-11 06:18:04.633 - update_title_pos
+Apr-11 06:18:41.549 - [  2][ 600/ 867] time for data/train: 0.0189/0.3473, loss: 1088.1249, score:  0.154
+Apr-11 06:18:41.582 - update_title_pos
+Apr-11 06:18:41.678 - update_title_pos
+Apr-11 06:18:41.747 - update_title_pos
+Apr-11 06:18:41.822 - update_title_pos
+Apr-11 06:19:18.935 - [  2][ 700/ 867] time for data/train: 0.0204/0.3481, loss: 1088.8329, score:  0.180
+Apr-11 06:19:18.968 - update_title_pos
+Apr-11 06:19:19.073 - update_title_pos
+Apr-11 06:19:19.143 - update_title_pos
+Apr-11 06:19:19.231 - update_title_pos
+Apr-11 06:19:56.616 - [  2][ 800/ 867] time for data/train: 0.0193/0.3643, loss: 1086.6606, score:  0.175
+Apr-11 06:19:56.650 - update_title_pos
+Apr-11 06:19:56.742 - update_title_pos
+Apr-11 06:19:56.810 - update_title_pos
+Apr-11 06:19:56.881 - update_title_pos
+Apr-11 06:20:21.781 - [  2][ 867/ 867] time for data/train: 0.0183/0.2515, loss: 1086.3496, score:  0.178
+Apr-11 06:20:21.813 - update_title_pos
+Apr-11 06:20:21.895 - update_title_pos
+Apr-11 06:20:21.956 - update_title_pos
+Apr-11 06:20:22.025 - update_title_pos
+Apr-11 06:21:46.517 - [  2]* Evaluation - score: 0.380 *
+Apr-11 06:21:46.551 - update_title_pos
+Apr-11 06:21:46.626 - update_title_pos
+Apr-11 06:21:46.685 - update_title_pos
+Apr-11 06:21:46.761 - update_title_pos
+Apr-11 06:21:47.002 - * This is the best score so far. *
+
+Apr-11 06:22:26.176 - [  3][ 100/ 867] time for data/train: 0.0196/0.3667, loss: 1085.7142, score:  0.193
+Apr-11 06:22:26.278 - update_title_pos
+Apr-11 06:22:26.397 - update_title_pos
+Apr-11 06:22:26.474 - update_title_pos
+Apr-11 06:22:26.552 - update_title_pos
+Apr-11 06:23:03.712 - [  3][ 200/ 867] time for data/train: 0.0174/0.3507, loss: 1085.8088, score:  0.197
+Apr-11 06:23:03.757 - update_title_pos
+Apr-11 06:23:03.846 - update_title_pos
+Apr-11 06:23:03.909 - update_title_pos
+Apr-11 06:23:03.981 - update_title_pos
+Apr-11 06:23:40.979 - [  3][ 300/ 867] time for data/train: 0.0190/0.3650, loss: 1087.4579, score:  0.193
+Apr-11 06:23:41.019 - update_title_pos
+Apr-11 06:23:41.116 - update_title_pos
+Apr-11 06:23:41.188 - update_title_pos
+Apr-11 06:23:41.268 - update_title_pos
+Apr-11 06:24:18.529 - [  3][ 400/ 867] time for data/train: 0.0201/0.3515, loss: 1086.5365, score:  0.137
+Apr-11 06:24:18.571 - update_title_pos
+Apr-11 06:24:18.651 - update_title_pos
+Apr-11 06:24:18.709 - update_title_pos
+Apr-11 06:24:18.773 - update_title_pos
+Apr-11 06:24:56.372 - [  3][ 500/ 867] time for data/train: 0.0184/0.3469, loss: 1087.3824, score:  0.166
+Apr-11 06:24:56.407 - update_title_pos
+Apr-11 06:24:56.486 - update_title_pos
+Apr-11 06:24:56.547 - update_title_pos
+Apr-11 06:24:56.611 - update_title_pos
+Apr-11 06:25:33.632 - [  3][ 600/ 867] time for data/train: 0.0174/0.3426, loss: 1087.7941, score:  0.192
+Apr-11 06:25:33.668 - update_title_pos
+Apr-11 06:25:33.747 - update_title_pos
+Apr-11 06:25:33.810 - update_title_pos
+Apr-11 06:25:33.875 - update_title_pos
+Apr-11 06:26:10.511 - [  3][ 700/ 867] time for data/train: 0.0217/0.3505, loss: 1087.1112, score:  0.195
+Apr-11 06:26:10.557 - update_title_pos
+Apr-11 06:26:10.658 - update_title_pos
+Apr-11 06:26:10.732 - update_title_pos
+Apr-11 06:26:10.816 - update_title_pos
+Apr-11 06:26:48.085 - [  3][ 800/ 867] time for data/train: 0.0183/0.3551, loss: 1087.0989, score:  0.192
+Apr-11 06:26:48.127 - update_title_pos
+Apr-11 06:26:48.223 - update_title_pos
+Apr-11 06:26:48.296 - update_title_pos
+Apr-11 06:26:48.368 - update_title_pos
+Apr-11 06:27:13.062 - [  3][ 867/ 867] time for data/train: 0.0175/0.2491, loss: 1087.2716, score:  0.228
+Apr-11 06:27:13.096 - update_title_pos
+Apr-11 06:27:13.177 - update_title_pos
+Apr-11 06:27:13.238 - update_title_pos
+Apr-11 06:27:13.308 - update_title_pos
+Apr-11 06:28:38.221 - [  3]* Evaluation - score: 0.397 *
+Apr-11 06:28:38.254 - update_title_pos
+Apr-11 06:28:38.346 - update_title_pos
+Apr-11 06:28:38.410 - update_title_pos
+Apr-11 06:28:38.500 - update_title_pos
+Apr-11 06:28:38.751 - * This is the best score so far. *
+
+Apr-11 06:29:17.770 - [  4][ 100/ 867] time for data/train: 0.0209/0.3515, loss: 1086.6211, score:  0.219
+Apr-11 06:29:17.882 - update_title_pos
+Apr-11 06:29:18.011 - update_title_pos
+Apr-11 06:29:18.082 - update_title_pos
+Apr-11 06:29:18.158 - update_title_pos
+Apr-11 06:29:55.489 - [  4][ 200/ 867] time for data/train: 0.0191/0.3617, loss: 1085.9358, score:  0.203
+Apr-11 06:29:55.528 - update_title_pos
+Apr-11 06:29:55.617 - update_title_pos
+Apr-11 06:29:55.680 - update_title_pos
+Apr-11 06:29:55.749 - update_title_pos
+Apr-11 06:30:32.773 - [  4][ 300/ 867] time for data/train: 0.0188/0.3512, loss: 1086.5270, score:  0.216
+Apr-11 06:30:32.813 - update_title_pos
+Apr-11 06:30:32.898 - update_title_pos
+Apr-11 06:30:32.965 - update_title_pos
+Apr-11 06:30:33.032 - update_title_pos
+Apr-11 06:31:09.955 - [  4][ 400/ 867] time for data/train: 0.0194/0.3756, loss: 1087.2407, score:  0.208
+Apr-11 06:31:10.017 - update_title_pos
+Apr-11 06:31:10.116 - update_title_pos
+Apr-11 06:31:10.191 - update_title_pos
+Apr-11 06:31:10.267 - update_title_pos
+Apr-11 06:31:47.373 - [  4][ 500/ 867] time for data/train: 0.0202/0.3706, loss: 1087.2041, score:  0.191
+Apr-11 06:31:47.414 - update_title_pos
+Apr-11 06:31:47.503 - update_title_pos
+Apr-11 06:31:47.571 - update_title_pos
+Apr-11 06:31:47.639 - update_title_pos
+Apr-11 06:32:24.608 - [  4][ 600/ 867] time for data/train: 0.0179/0.3471, loss: 1087.2368, score:  0.197
+Apr-11 06:32:24.648 - update_title_pos
+Apr-11 06:32:24.732 - update_title_pos
+Apr-11 06:32:24.795 - update_title_pos
+Apr-11 06:32:24.862 - update_title_pos
+Apr-11 06:33:01.837 - [  4][ 700/ 867] time for data/train: 0.0204/0.3677, loss: 1087.1266, score:  0.205
+Apr-11 06:33:01.887 - update_title_pos
+Apr-11 06:33:01.988 - update_title_pos
+Apr-11 06:33:02.065 - update_title_pos
+Apr-11 06:33:02.141 - update_title_pos
+Apr-11 06:33:39.723 - [  4][ 800/ 867] time for data/train: 0.0172/0.3516, loss: 1088.0750, score:  0.196
+Apr-11 06:33:39.769 - update_title_pos
+Apr-11 06:33:39.868 - update_title_pos
+Apr-11 06:33:39.934 - update_title_pos
+Apr-11 06:33:40.002 - update_title_pos
+Apr-11 06:34:04.334 - [  4][ 867/ 867] time for data/train: 0.0174/0.2447, loss: 1087.0247, score:  0.225
+Apr-11 06:34:04.379 - update_title_pos
+Apr-11 06:34:04.469 - update_title_pos
+Apr-11 06:34:04.538 - update_title_pos
+Apr-11 06:34:04.605 - update_title_pos
+Apr-11 06:35:29.744 - [  4]* Evaluation - score: 0.411 *
+Apr-11 06:35:29.784 - update_title_pos
+Apr-11 06:35:29.880 - update_title_pos
+Apr-11 06:35:29.946 - update_title_pos
+Apr-11 06:35:30.039 - update_title_pos
+Apr-11 06:35:30.309 - * This is the best score so far. *
+
+Apr-11 06:36:09.161 - [  5][ 100/ 867] time for data/train: 0.0198/0.3686, loss: 1086.4756, score:  0.217
+Apr-11 06:36:09.293 - update_title_pos
+Apr-11 06:36:09.420 - update_title_pos
+Apr-11 06:36:09.503 - update_title_pos
+Apr-11 06:36:09.587 - update_title_pos
+Apr-11 06:36:46.505 - [  5][ 200/ 867] time for data/train: 0.0192/0.3685, loss: 1087.6963, score:  0.227
+Apr-11 06:36:46.556 - update_title_pos
+Apr-11 06:36:46.662 - update_title_pos
+Apr-11 06:36:46.745 - update_title_pos
+Apr-11 06:36:46.825 - update_title_pos
+Apr-11 06:37:23.793 - [  5][ 300/ 867] time for data/train: 0.0174/0.3435, loss: 1086.0649, score:  0.191
+Apr-11 06:37:23.839 - update_title_pos
+Apr-11 06:37:23.931 - update_title_pos
+Apr-11 06:37:24.000 - update_title_pos
+Apr-11 06:37:24.070 - update_title_pos
+Apr-11 06:38:00.792 - [  5][ 400/ 867] time for data/train: 0.0205/0.3654, loss: 1087.5057, score:  0.223
+Apr-11 06:38:00.854 - update_title_pos
+Apr-11 06:38:00.965 - update_title_pos
+Apr-11 06:38:01.051 - update_title_pos
+Apr-11 06:38:01.139 - update_title_pos
+Apr-11 06:38:38.730 - [  5][ 500/ 867] time for data/train: 0.0208/0.3626, loss: 1087.4603, score:  0.216
+Apr-11 06:38:38.787 - update_title_pos
+Apr-11 06:38:38.892 - update_title_pos
+Apr-11 06:38:38.974 - update_title_pos
+Apr-11 06:38:39.060 - update_title_pos
+Apr-11 06:39:16.453 - [  5][ 600/ 867] time for data/train: 0.0202/0.3651, loss: 1085.8997, score:  0.219
+Apr-11 06:39:16.505 - update_title_pos
+Apr-11 06:39:16.605 - update_title_pos
+Apr-11 06:39:16.676 - update_title_pos
+Apr-11 06:39:16.749 - update_title_pos
+Apr-11 06:39:53.842 - [  5][ 700/ 867] time for data/train: 0.0197/0.3560, loss: 1087.6931, score:  0.197
+Apr-11 06:39:53.893 - update_title_pos
+Apr-11 06:39:53.994 - update_title_pos
+Apr-11 06:39:54.072 - update_title_pos
+Apr-11 06:39:54.147 - update_title_pos
+Apr-11 06:40:31.168 - [  5][ 800/ 867] time for data/train: 0.0199/0.3662, loss: 1087.4585, score:  0.233
+Apr-11 06:40:31.225 - update_title_pos
+Apr-11 06:40:31.324 - update_title_pos
+Apr-11 06:40:31.407 - update_title_pos
+Apr-11 06:40:31.483 - update_title_pos
+Apr-11 06:40:56.300 - [  5][ 867/ 867] time for data/train: 0.0194/0.2698, loss: 1085.2361, score:  0.210
+Apr-11 06:40:56.363 - update_title_pos
+Apr-11 06:40:56.473 - update_title_pos
+Apr-11 06:40:56.559 - update_title_pos
+Apr-11 06:40:56.641 - update_title_pos
+Apr-11 06:42:21.270 - [  5]* Evaluation - score: 0.418 *
+Apr-11 06:42:21.309 - update_title_pos
+Apr-11 06:42:21.395 - update_title_pos
+Apr-11 06:42:21.459 - update_title_pos
+Apr-11 06:42:21.546 - update_title_pos
+Apr-11 06:42:21.805 - * This is the best score so far. *
+
+Apr-11 06:43:00.789 - [  6][ 100/ 867] time for data/train: 0.0196/0.3483, loss: 1087.0515, score:  0.234
+Apr-11 06:43:00.928 - update_title_pos
+Apr-11 06:43:01.042 - update_title_pos
+Apr-11 06:43:01.110 - update_title_pos
+Apr-11 06:43:01.181 - update_title_pos
+Apr-11 06:43:38.425 - [  6][ 200/ 867] time for data/train: 0.0198/0.3677, loss: 1087.8890, score:  0.205
+Apr-11 06:43:38.496 - update_title_pos
+Apr-11 06:43:38.600 - update_title_pos
+Apr-11 06:43:38.685 - update_title_pos
+Apr-11 06:43:38.765 - update_title_pos
+Apr-11 06:44:16.375 - [  6][ 300/ 867] time for data/train: 0.0188/0.3565, loss: 1086.6156, score:  0.240
+Apr-11 06:44:16.424 - update_title_pos
+Apr-11 06:44:16.516 - update_title_pos
+Apr-11 06:44:16.588 - update_title_pos
+Apr-11 06:44:16.668 - update_title_pos
+Apr-11 06:44:53.176 - [  6][ 400/ 867] time for data/train: 0.0198/0.3675, loss: 1086.0227, score:  0.244
+Apr-11 06:44:53.232 - update_title_pos
+Apr-11 06:44:53.335 - update_title_pos
+Apr-11 06:44:53.419 - update_title_pos
+Apr-11 06:44:53.499 - update_title_pos
+Apr-11 06:45:30.808 - [  6][ 500/ 867] time for data/train: 0.0197/0.3670, loss: 1086.6169, score:  0.230
+Apr-11 06:45:30.869 - update_title_pos
+Apr-11 06:45:30.975 - update_title_pos
+Apr-11 06:45:31.058 - update_title_pos
+Apr-11 06:45:31.137 - update_title_pos
+Apr-11 06:46:08.331 - [  6][ 600/ 867] time for data/train: 0.0204/0.3603, loss: 1085.7709, score:  0.257
+Apr-11 06:46:08.390 - update_title_pos
+Apr-11 06:46:08.496 - update_title_pos
+Apr-11 06:46:08.582 - update_title_pos
+Apr-11 06:46:08.658 - update_title_pos
+Apr-11 06:46:45.776 - [  6][ 700/ 867] time for data/train: 0.0204/0.3894, loss: 1087.0771, score:  0.234
+Apr-11 06:46:45.832 - update_title_pos
+Apr-11 06:46:45.942 - update_title_pos
+Apr-11 06:46:46.027 - update_title_pos
+Apr-11 06:46:46.107 - update_title_pos
+Apr-11 06:47:23.484 - [  6][ 800/ 867] time for data/train: 0.0206/0.3771, loss: 1086.6958, score:  0.210
+Apr-11 06:47:23.545 - update_title_pos
+Apr-11 06:47:23.653 - update_title_pos
+Apr-11 06:47:23.740 - update_title_pos
+Apr-11 06:47:23.817 - update_title_pos
+Apr-11 06:47:48.791 - [  6][ 867/ 867] time for data/train: 0.0206/0.2619, loss: 1086.7162, score:  0.259
+Apr-11 06:47:48.852 - update_title_pos
+Apr-11 06:47:48.958 - update_title_pos
+Apr-11 06:47:49.039 - update_title_pos
+Apr-11 06:47:49.118 - update_title_pos
+Apr-11 06:49:13.594 - [  6]* Evaluation - score: 0.436 *
+Apr-11 06:49:13.637 - update_title_pos
+Apr-11 06:49:13.725 - update_title_pos
+Apr-11 06:49:13.788 - update_title_pos
+Apr-11 06:49:13.870 - update_title_pos
+Apr-11 06:49:14.120 - * This is the best score so far. *
+
+Apr-11 06:49:52.854 - [  7][ 100/ 867] time for data/train: 0.0214/0.3755, loss: 1085.3516, score:  0.223
+Apr-11 06:49:53.019 - update_title_pos
+Apr-11 06:49:53.143 - update_title_pos
+Apr-11 06:49:53.227 - update_title_pos
+Apr-11 06:49:53.307 - update_title_pos
+Apr-11 06:50:30.647 - [  7][ 200/ 867] time for data/train: 0.0189/0.3446, loss: 1087.3066, score:  0.229
+Apr-11 06:50:30.711 - update_title_pos
+Apr-11 06:50:30.809 - update_title_pos
+Apr-11 06:50:30.881 - update_title_pos
+Apr-11 06:50:30.948 - update_title_pos
+Apr-11 06:51:07.823 - [  7][ 300/ 867] time for data/train: 0.0177/0.3499, loss: 1086.3406, score:  0.231
+Apr-11 06:51:07.874 - update_title_pos
+Apr-11 06:51:07.966 - update_title_pos
+Apr-11 06:51:08.038 - update_title_pos
+Apr-11 06:51:08.105 - update_title_pos
+Apr-11 06:51:44.648 - [  7][ 400/ 867] time for data/train: 0.0202/0.3558, loss: 1085.9139, score:  0.231
+Apr-11 06:51:44.699 - update_title_pos
+Apr-11 06:51:44.789 - update_title_pos
+Apr-11 06:51:44.857 - update_title_pos
+Apr-11 06:51:44.927 - update_title_pos
+Apr-11 06:52:22.462 - [  7][ 500/ 867] time for data/train: 0.0200/0.3658, loss: 1087.1475, score:  0.229
+Apr-11 06:52:22.529 - update_title_pos
+Apr-11 06:52:22.639 - update_title_pos
+Apr-11 06:52:22.726 - update_title_pos
+Apr-11 06:52:22.809 - update_title_pos
+Apr-11 06:52:59.995 - [  7][ 600/ 867] time for data/train: 0.0221/0.3543, loss: 1085.1915, score:  0.221
+Apr-11 06:53:00.061 - update_title_pos
+Apr-11 06:53:00.180 - update_title_pos
+Apr-11 06:53:00.269 - update_title_pos
+Apr-11 06:53:00.355 - update_title_pos
+Apr-11 06:53:37.303 - [  7][ 700/ 867] time for data/train: 0.0191/0.3635, loss: 1086.9630, score:  0.246
+Apr-11 06:53:37.357 - update_title_pos
+Apr-11 06:53:37.452 - update_title_pos
+Apr-11 06:53:37.527 - update_title_pos
+Apr-11 06:53:37.594 - update_title_pos
+Apr-11 06:54:14.317 - [  7][ 800/ 867] time for data/train: 0.0191/0.3613, loss: 1087.5642, score:  0.215
+Apr-11 06:54:14.382 - update_title_pos
+Apr-11 06:54:14.503 - update_title_pos
+Apr-11 06:54:14.586 - update_title_pos
+Apr-11 06:54:14.667 - update_title_pos
+Apr-11 06:54:39.694 - [  7][ 867/ 867] time for data/train: 0.0194/0.2695, loss: 1087.4520, score:  0.215
+Apr-11 06:54:39.757 - update_title_pos
+Apr-11 06:54:39.863 - update_title_pos
+Apr-11 06:54:39.942 - update_title_pos
+Apr-11 06:54:40.016 - update_title_pos
+Apr-11 06:56:04.610 - [  7]* Evaluation - score: 0.444 *
+Apr-11 06:56:04.659 - update_title_pos
+Apr-11 06:56:04.741 - update_title_pos
+Apr-11 06:56:04.800 - update_title_pos
+Apr-11 06:56:04.880 - update_title_pos
+Apr-11 06:56:05.121 - * This is the best score so far. *
+
+Apr-11 06:56:44.109 - [  8][ 100/ 867] time for data/train: 0.0203/0.3657, loss: 1086.1774, score:  0.243
+Apr-11 06:56:44.271 - update_title_pos
+Apr-11 06:56:44.397 - update_title_pos
+Apr-11 06:56:44.498 - update_title_pos
+Apr-11 06:56:44.580 - update_title_pos
+Apr-11 06:57:21.446 - [  8][ 200/ 867] time for data/train: 0.0178/0.3529, loss: 1085.6990, score:  0.266
+Apr-11 06:57:21.516 - update_title_pos
+Apr-11 06:57:21.615 - update_title_pos
+Apr-11 06:57:21.689 - update_title_pos
+Apr-11 06:57:21.759 - update_title_pos
+Apr-11 06:57:59.034 - [  8][ 300/ 867] time for data/train: 0.0207/0.3463, loss: 1087.4078, score:  0.273
+Apr-11 06:57:59.139 - update_title_pos
+Apr-11 06:57:59.253 - update_title_pos
+Apr-11 06:57:59.337 - update_title_pos
+Apr-11 06:57:59.412 - update_title_pos
+Apr-11 06:58:36.614 - [  8][ 400/ 867] time for data/train: 0.0202/0.3603, loss: 1087.5038, score:  0.224
+Apr-11 06:58:36.676 - update_title_pos
+Apr-11 06:58:36.777 - update_title_pos
+Apr-11 06:58:36.854 - update_title_pos
+Apr-11 06:58:36.924 - update_title_pos
+Apr-11 06:59:13.802 - [  8][ 500/ 867] time for data/train: 0.0181/0.3437, loss: 1088.0923, score:  0.264
+Apr-11 06:59:13.862 - update_title_pos
+Apr-11 06:59:13.961 - update_title_pos
+Apr-11 06:59:14.035 - update_title_pos
+Apr-11 06:59:14.106 - update_title_pos
+Apr-11 06:59:51.296 - [  8][ 600/ 867] time for data/train: 0.0195/0.3697, loss: 1086.6342, score:  0.219
+Apr-11 06:59:51.364 - update_title_pos
+Apr-11 06:59:51.481 - update_title_pos
+Apr-11 06:59:51.571 - update_title_pos
+Apr-11 06:59:51.648 - update_title_pos
+Apr-11 07:00:28.524 - [  8][ 700/ 867] time for data/train: 0.0185/0.3650, loss: 1086.3895, score:  0.259
+Apr-11 07:00:28.593 - update_title_pos
+Apr-11 07:00:28.706 - update_title_pos
+Apr-11 07:00:28.795 - update_title_pos
+Apr-11 07:00:28.873 - update_title_pos
+Apr-11 07:01:06.199 - [  8][ 800/ 867] time for data/train: 0.0203/0.3695, loss: 1086.2854, score:  0.214
+Apr-11 07:01:06.270 - update_title_pos
+Apr-11 07:01:06.392 - update_title_pos
+Apr-11 07:01:06.496 - update_title_pos
+Apr-11 07:01:06.585 - update_title_pos
+Apr-11 07:01:31.613 - [  8][ 867/ 867] time for data/train: 0.0203/0.2666, loss: 1087.8132, score:  0.229
+Apr-11 07:01:31.678 - update_title_pos
+Apr-11 07:01:31.786 - update_title_pos
+Apr-11 07:01:31.866 - update_title_pos
+Apr-11 07:01:31.941 - update_title_pos
+Apr-11 07:02:56.510 - [  8]* Evaluation - score: 0.448 *
+Apr-11 07:02:56.560 - update_title_pos
+Apr-11 07:02:56.652 - update_title_pos
+Apr-11 07:02:56.714 - update_title_pos
+Apr-11 07:02:56.801 - update_title_pos
+Apr-11 07:02:57.065 - * This is the best score so far. *
+
+Apr-11 07:03:36.219 - [  9][ 100/ 867] time for data/train: 0.0206/0.3691, loss: 1086.4037, score:  0.266
+Apr-11 07:03:36.406 - update_title_pos
+Apr-11 07:03:36.529 - update_title_pos
+Apr-11 07:03:36.623 - update_title_pos
+Apr-11 07:03:36.711 - update_title_pos
+Apr-11 07:04:14.216 - [  9][ 200/ 867] time for data/train: 0.0192/0.3550, loss: 1087.4584, score:  0.227
+Apr-11 07:04:14.281 - update_title_pos
+Apr-11 07:04:14.381 - update_title_pos
+Apr-11 07:04:14.470 - update_title_pos
+Apr-11 07:04:14.556 - update_title_pos
+Apr-11 07:04:51.533 - [  9][ 300/ 867] time for data/train: 0.0199/0.3682, loss: 1086.8379, score:  0.238
+Apr-11 07:04:51.607 - update_title_pos
+Apr-11 07:04:51.726 - update_title_pos
+Apr-11 07:04:51.817 - update_title_pos
+Apr-11 07:04:51.910 - update_title_pos
+Apr-11 07:05:28.696 - [  9][ 400/ 867] time for data/train: 0.0192/0.3671, loss: 1085.7129, score:  0.230
+Apr-11 07:05:28.768 - update_title_pos
+Apr-11 07:05:28.891 - update_title_pos
+Apr-11 07:05:28.981 - update_title_pos
+Apr-11 07:05:29.067 - update_title_pos
+Apr-11 07:06:06.421 - [  9][ 500/ 867] time for data/train: 0.0170/0.3511, loss: 1086.7229, score:  0.264
+Apr-11 07:06:06.499 - update_title_pos
+Apr-11 07:06:06.616 - update_title_pos
+Apr-11 07:06:06.705 - update_title_pos
+Apr-11 07:06:06.784 - update_title_pos
+Apr-11 07:06:44.368 - [  9][ 600/ 867] time for data/train: 0.0193/0.3616, loss: 1087.3154, score:  0.257
+Apr-11 07:06:44.443 - update_title_pos
+Apr-11 07:06:44.563 - update_title_pos
+Apr-11 07:06:44.652 - update_title_pos
+Apr-11 07:06:44.730 - update_title_pos
+Apr-11 07:07:22.082 - [  9][ 700/ 867] time for data/train: 0.0194/0.3653, loss: 1087.8016, score:  0.201
+Apr-11 07:07:22.158 - update_title_pos
+Apr-11 07:07:22.283 - update_title_pos
+Apr-11 07:07:22.372 - update_title_pos
+Apr-11 07:07:22.459 - update_title_pos
+Apr-11 07:07:59.917 - [  9][ 800/ 867] time for data/train: 0.0204/0.3629, loss: 1086.5787, score:  0.274
+Apr-11 07:07:59.981 - update_title_pos
+Apr-11 07:08:00.088 - update_title_pos
+Apr-11 07:08:00.165 - update_title_pos
+Apr-11 07:08:00.239 - update_title_pos
+Apr-11 07:08:24.812 - [  9][ 867/ 867] time for data/train: 0.0176/0.2520, loss: 1087.1138, score:  0.254
+Apr-11 07:08:24.880 - update_title_pos
+Apr-11 07:08:24.987 - update_title_pos
+Apr-11 07:08:25.066 - update_title_pos
+Apr-11 07:08:25.140 - update_title_pos
+Apr-11 07:09:50.003 - [  9]* Evaluation - score: 0.452 *
+Apr-11 07:09:50.054 - update_title_pos
+Apr-11 07:09:50.137 - update_title_pos
+Apr-11 07:09:50.202 - update_title_pos
+Apr-11 07:09:50.276 - update_title_pos
+Apr-11 07:09:50.691 - * This is the best score so far. *
+
+Apr-11 07:10:29.967 - [ 10][ 100/ 867] time for data/train: 0.0210/0.3573, loss: 1086.0155, score:  0.241
+Apr-11 07:10:30.151 - update_title_pos
+Apr-11 07:10:30.291 - update_title_pos
+Apr-11 07:10:30.394 - update_title_pos
+Apr-11 07:10:30.501 - update_title_pos
+Apr-11 07:11:07.899 - [ 10][ 200/ 867] time for data/train: 0.0193/0.3559, loss: 1087.2549, score:  0.260
+Apr-11 07:11:07.969 - update_title_pos
+Apr-11 07:11:08.083 - update_title_pos
+Apr-11 07:11:08.163 - update_title_pos
+Apr-11 07:11:08.237 - update_title_pos
+Apr-11 07:11:45.236 - [ 10][ 300/ 867] time for data/train: 0.0181/0.3509, loss: 1087.1921, score:  0.267
+Apr-11 07:11:45.315 - update_title_pos
+Apr-11 07:11:45.446 - update_title_pos
+Apr-11 07:11:45.554 - update_title_pos
+Apr-11 07:11:45.644 - update_title_pos
+Apr-11 07:12:22.652 - [ 10][ 400/ 867] time for data/train: 0.0207/0.3707, loss: 1086.0208, score:  0.252
+Apr-11 07:12:22.731 - update_title_pos
+Apr-11 07:12:22.842 - update_title_pos
+Apr-11 07:12:22.936 - update_title_pos
+Apr-11 07:12:23.015 - update_title_pos
+Apr-11 07:13:00.213 - [ 10][ 500/ 867] time for data/train: 0.0194/0.3667, loss: 1086.7079, score:  0.258
+Apr-11 07:13:00.295 - update_title_pos
+Apr-11 07:13:00.412 - update_title_pos
+Apr-11 07:13:00.509 - update_title_pos
+Apr-11 07:13:00.593 - update_title_pos
+Apr-11 07:13:37.806 - [ 10][ 600/ 867] time for data/train: 0.0207/0.3624, loss: 1086.8339, score:  0.259
+Apr-11 07:13:37.891 - update_title_pos
+Apr-11 07:13:38.015 - update_title_pos
+Apr-11 07:13:38.112 - update_title_pos
+Apr-11 07:13:38.201 - update_title_pos
+Apr-11 07:14:15.525 - [ 10][ 700/ 867] time for data/train: 0.0195/0.3594, loss: 1086.8435, score:  0.280
+Apr-11 07:14:15.607 - update_title_pos
+Apr-11 07:14:15.721 - update_title_pos
+Apr-11 07:14:15.810 - update_title_pos
+Apr-11 07:14:15.888 - update_title_pos
+Apr-11 07:14:53.037 - [ 10][ 800/ 867] time for data/train: 0.0196/0.3639, loss: 1085.7651, score:  0.311
+Apr-11 07:14:53.118 - update_title_pos
+Apr-11 07:14:53.231 - update_title_pos
+Apr-11 07:14:53.317 - update_title_pos
+Apr-11 07:14:53.401 - update_title_pos
+Apr-11 07:15:18.185 - [ 10][ 867/ 867] time for data/train: 0.0171/0.2609, loss: 1085.5891, score:  0.277
+Apr-11 07:15:18.258 - update_title_pos
+Apr-11 07:15:18.359 - update_title_pos
+Apr-11 07:15:18.435 - update_title_pos
+Apr-11 07:15:18.503 - update_title_pos
+Apr-11 07:16:43.416 - [ 10]* Evaluation - score: 0.453 *
+Apr-11 07:16:43.473 - update_title_pos
+Apr-11 07:16:43.564 - update_title_pos
+Apr-11 07:16:43.628 - update_title_pos
+Apr-11 07:16:43.703 - update_title_pos
+Apr-11 07:16:43.954 - * This is the best score so far. *
+
+Apr-11 07:17:23.215 - [ 11][ 100/ 867] time for data/train: 0.0200/0.3638, loss: 1087.4066, score:  0.257
+Apr-11 07:17:23.410 - update_title_pos
+Apr-11 07:17:23.528 - update_title_pos
+Apr-11 07:17:23.613 - update_title_pos
+Apr-11 07:17:23.700 - update_title_pos
+Apr-11 07:18:01.042 - [ 11][ 200/ 867] time for data/train: 0.0192/0.3632, loss: 1085.9180, score:  0.258
+Apr-11 07:18:01.134 - update_title_pos
+Apr-11 07:18:01.259 - update_title_pos
+Apr-11 07:18:01.345 - update_title_pos
+Apr-11 07:18:01.422 - update_title_pos
+Apr-11 07:18:38.619 - [ 11][ 300/ 867] time for data/train: 0.0211/0.3740, loss: 1085.8823, score:  0.249
+Apr-11 07:18:38.712 - update_title_pos
+Apr-11 07:18:38.840 - update_title_pos
+Apr-11 07:18:38.938 - update_title_pos
+Apr-11 07:18:39.028 - update_title_pos
+Apr-11 07:19:16.586 - [ 11][ 400/ 867] time for data/train: 0.0193/0.3689, loss: 1086.7305, score:  0.243
+Apr-11 07:19:16.674 - update_title_pos
+Apr-11 07:19:16.792 - update_title_pos
+Apr-11 07:19:16.878 - update_title_pos
+Apr-11 07:19:16.957 - update_title_pos
+Apr-11 07:19:54.297 - [ 11][ 500/ 867] time for data/train: 0.0198/0.3493, loss: 1085.3606, score:  0.252
+Apr-11 07:19:54.384 - update_title_pos
+Apr-11 07:19:54.508 - update_title_pos
+Apr-11 07:19:54.604 - update_title_pos
+Apr-11 07:19:54.688 - update_title_pos
+Apr-11 07:20:31.655 - [ 11][ 600/ 867] time for data/train: 0.0195/0.3548, loss: 1085.4553, score:  0.275
+Apr-11 07:20:31.744 - update_title_pos
+Apr-11 07:20:31.854 - update_title_pos
+Apr-11 07:20:31.941 - update_title_pos
+Apr-11 07:20:32.017 - update_title_pos
+Apr-11 07:21:09.346 - [ 11][ 700/ 867] time for data/train: 0.0189/0.3508, loss: 1086.3420, score:  0.234
+Apr-11 07:21:09.421 - update_title_pos
+Apr-11 07:21:09.524 - update_title_pos
+Apr-11 07:21:09.617 - update_title_pos
+Apr-11 07:21:09.691 - update_title_pos
+Apr-11 07:21:46.770 - [ 11][ 800/ 867] time for data/train: 0.0182/0.3523, loss: 1087.5797, score:  0.283
+Apr-11 07:21:46.851 - update_title_pos
+Apr-11 07:21:46.967 - update_title_pos
+Apr-11 07:21:47.046 - update_title_pos
+Apr-11 07:21:47.116 - update_title_pos
+Apr-11 07:22:12.789 - [ 11][ 867/ 867] time for data/train: 0.0199/0.2684, loss: 1087.1794, score:  0.237
+Apr-11 07:22:12.880 - update_title_pos
+Apr-11 07:22:12.999 - update_title_pos
+Apr-11 07:22:13.091 - update_title_pos
+Apr-11 07:22:13.170 - update_title_pos
+Apr-11 07:23:37.889 - [ 11]* Evaluation - score: 0.455 *
+Apr-11 07:23:37.949 - update_title_pos
+Apr-11 07:23:38.037 - update_title_pos
+Apr-11 07:23:38.100 - update_title_pos
+Apr-11 07:23:38.171 - update_title_pos
+Apr-11 07:23:38.412 - * This is the best score so far. *
+
+Apr-11 07:24:17.538 - [ 12][ 100/ 867] time for data/train: 0.0198/0.3679, loss: 1085.9016, score:  0.335
+Apr-11 07:24:17.734 - update_title_pos
+Apr-11 07:24:17.862 - update_title_pos
+Apr-11 07:24:17.962 - update_title_pos
+Apr-11 07:24:18.065 - update_title_pos
+Apr-11 07:24:55.174 - [ 12][ 200/ 867] time for data/train: 0.0199/0.3683, loss: 1087.0400, score:  0.273
+Apr-11 07:24:55.271 - update_title_pos
+Apr-11 07:24:55.398 - update_title_pos
+Apr-11 07:24:55.492 - update_title_pos
+Apr-11 07:24:55.571 - update_title_pos
+Apr-11 07:25:32.805 - [ 12][ 300/ 867] time for data/train: 0.0190/0.3659, loss: 1086.5005, score:  0.235
+Apr-11 07:25:32.898 - update_title_pos
+Apr-11 07:25:33.018 - update_title_pos
+Apr-11 07:25:33.114 - update_title_pos
+Apr-11 07:25:33.192 - update_title_pos
+Apr-11 07:26:10.375 - [ 12][ 400/ 867] time for data/train: 0.0172/0.3506, loss: 1087.2458, score:  0.245
+Apr-11 07:26:10.451 - update_title_pos
+Apr-11 07:26:10.560 - update_title_pos
+Apr-11 07:26:10.651 - update_title_pos
+Apr-11 07:26:10.722 - update_title_pos
+Apr-11 07:26:48.750 - [ 12][ 500/ 867] time for data/train: 0.0183/0.3513, loss: 1085.7069, score:  0.290
+Apr-11 07:26:48.831 - update_title_pos
+Apr-11 07:26:48.942 - update_title_pos
+Apr-11 07:26:49.021 - update_title_pos
+Apr-11 07:26:49.096 - update_title_pos
+Apr-11 07:27:25.943 - [ 12][ 600/ 867] time for data/train: 0.0192/0.3657, loss: 1085.6184, score:  0.298
+Apr-11 07:27:26.035 - update_title_pos
+Apr-11 07:27:26.165 - update_title_pos
+Apr-11 07:27:26.268 - update_title_pos
+Apr-11 07:27:26.353 - update_title_pos
+Apr-11 07:28:03.515 - [ 12][ 700/ 867] time for data/train: 0.0199/0.3629, loss: 1086.1719, score:  0.282
+Apr-11 07:28:03.615 - update_title_pos
+Apr-11 07:28:03.739 - update_title_pos
+Apr-11 07:28:03.839 - update_title_pos
+Apr-11 07:28:03.924 - update_title_pos
+Apr-11 07:28:41.187 - [ 12][ 800/ 867] time for data/train: 0.0227/0.3507, loss: 1086.6431, score:  0.234
+Apr-11 07:28:41.287 - update_title_pos
+Apr-11 07:28:41.413 - update_title_pos
+Apr-11 07:28:41.520 - update_title_pos
+Apr-11 07:28:41.593 - update_title_pos
+Apr-11 07:29:06.219 - [ 12][ 867/ 867] time for data/train: 0.0173/0.2636, loss: 1086.6388, score:  0.293
+Apr-11 07:29:06.304 - update_title_pos
+Apr-11 07:29:06.425 - update_title_pos
+Apr-11 07:29:06.521 - update_title_pos
+Apr-11 07:29:06.599 - update_title_pos
+Apr-11 07:30:33.078 - [ 12]* Evaluation - score: 0.458 *
+Apr-11 07:30:33.140 - update_title_pos
+Apr-11 07:30:33.228 - update_title_pos
+Apr-11 07:30:33.291 - update_title_pos
+Apr-11 07:30:33.366 - update_title_pos
+Apr-11 07:30:33.615 - * This is the best score so far. *
+
+Apr-11 07:31:12.290 - [ 13][ 100/ 867] time for data/train: 0.0202/0.3628, loss: 1087.9276, score:  0.260
+Apr-11 07:31:12.492 - update_title_pos
+Apr-11 07:31:12.644 - update_title_pos
+Apr-11 07:31:12.742 - update_title_pos
+Apr-11 07:31:12.823 - update_title_pos
+Apr-11 07:31:51.435 - [ 13][ 200/ 867] time for data/train: 0.0202/0.3637, loss: 1085.9749, score:  0.299
+Apr-11 07:31:51.531 - update_title_pos
+Apr-11 07:31:51.659 - update_title_pos
+Apr-11 07:31:51.755 - update_title_pos
+Apr-11 07:31:51.842 - update_title_pos
+Apr-11 07:32:28.973 - [ 13][ 300/ 867] time for data/train: 0.0201/0.3652, loss: 1087.1508, score:  0.301
+Apr-11 07:32:29.057 - update_title_pos
+Apr-11 07:32:29.170 - update_title_pos
+Apr-11 07:32:29.252 - update_title_pos
+Apr-11 07:32:29.322 - update_title_pos
+Apr-11 07:33:06.927 - [ 13][ 400/ 867] time for data/train: 0.0194/0.3703, loss: 1085.2866, score:  0.285
+Apr-11 07:33:07.031 - update_title_pos
+Apr-11 07:33:08.672 - update_title_pos
+Apr-11 07:33:08.769 - update_title_pos
+Apr-11 07:33:08.848 - update_title_pos
+Apr-11 07:33:46.004 - [ 13][ 500/ 867] time for data/train: 0.0199/0.3682, loss: 1084.5386, score:  0.320
+Apr-11 07:33:46.114 - update_title_pos
+Apr-11 07:33:46.242 - update_title_pos
+Apr-11 07:33:46.345 - update_title_pos
+Apr-11 07:33:46.431 - update_title_pos
+Apr-11 07:34:23.613 - [ 13][ 600/ 867] time for data/train: 0.0186/0.3467, loss: 1086.0648, score:  0.285
+Apr-11 07:34:23.709 - update_title_pos
+Apr-11 07:34:23.830 - update_title_pos
+Apr-11 07:34:23.926 - update_title_pos
+Apr-11 07:34:24.007 - update_title_pos
+Apr-11 07:35:01.716 - [ 13][ 700/ 867] time for data/train: 0.0203/0.3741, loss: 1085.5928, score:  0.316
+Apr-11 07:35:01.804 - update_title_pos
+Apr-11 07:35:01.917 - update_title_pos
+Apr-11 07:35:01.997 - update_title_pos
+Apr-11 07:35:02.068 - update_title_pos
+Apr-11 07:35:39.425 - [ 13][ 800/ 867] time for data/train: 0.0188/0.3579, loss: 1087.1996, score:  0.289
+Apr-11 07:35:39.511 - update_title_pos
+Apr-11 07:35:39.637 - update_title_pos
+Apr-11 07:35:39.731 - update_title_pos
+Apr-11 07:35:39.810 - update_title_pos
+Apr-11 07:36:04.853 - [ 13][ 867/ 867] time for data/train: 0.0192/0.2756, loss: 1084.4011, score:  0.327
+Apr-11 07:36:04.954 - update_title_pos
+Apr-11 07:36:05.080 - update_title_pos
+Apr-11 07:36:05.184 - update_title_pos
+Apr-11 07:36:05.269 - update_title_pos
+Apr-11 07:37:30.546 - [ 13]* Evaluation - score: 0.456 *
+Apr-11 07:37:30.609 - update_title_pos
+Apr-11 07:37:30.703 - update_title_pos
+Apr-11 07:37:30.767 - update_title_pos
+Apr-11 07:37:30.842 - update_title_pos
+Apr-11 07:38:10.437 - [ 14][ 100/ 867] time for data/train: 0.0207/0.3489, loss: 1087.0657, score:  0.314
+Apr-11 07:38:10.628 - update_title_pos
+Apr-11 07:38:10.752 - update_title_pos
+Apr-11 07:38:10.835 - update_title_pos
+Apr-11 07:38:10.909 - update_title_pos
+Apr-11 07:38:47.812 - [ 14][ 200/ 867] time for data/train: 0.0208/0.3501, loss: 1085.0995, score:  0.312
+Apr-11 07:38:47.923 - update_title_pos
+Apr-11 07:38:48.067 - update_title_pos
+Apr-11 07:38:48.171 - update_title_pos
+Apr-11 07:38:48.265 - update_title_pos
+Apr-11 07:39:25.194 - [ 14][ 300/ 867] time for data/train: 0.0197/0.3581, loss: 1085.7607, score:  0.283
+Apr-11 07:39:25.298 - update_title_pos
+Apr-11 07:39:25.438 - update_title_pos
+Apr-11 07:39:25.549 - update_title_pos
+Apr-11 07:39:25.636 - update_title_pos
+Apr-11 07:40:02.953 - [ 14][ 400/ 867] time for data/train: 0.0197/0.3701, loss: 1085.7083, score:  0.297
+Apr-11 07:40:03.059 - update_title_pos
+Apr-11 07:40:03.188 - update_title_pos
+Apr-11 07:40:03.293 - update_title_pos
+Apr-11 07:40:03.383 - update_title_pos
+Apr-11 07:40:40.345 - [ 14][ 500/ 867] time for data/train: 0.0180/0.3560, loss: 1086.5673, score:  0.311
+Apr-11 07:40:40.433 - update_title_pos
+Apr-11 07:40:40.546 - update_title_pos
+Apr-11 07:40:40.630 - update_title_pos
+Apr-11 07:40:40.707 - update_title_pos
+Apr-11 07:41:18.070 - [ 14][ 600/ 867] time for data/train: 0.0192/0.3732, loss: 1086.0083, score:  0.296
+Apr-11 07:41:18.174 - update_title_pos
+Apr-11 07:41:18.309 - update_title_pos
+Apr-11 07:41:18.409 - update_title_pos
+Apr-11 07:41:18.492 - update_title_pos
+Apr-11 07:41:55.571 - [ 14][ 700/ 867] time for data/train: 0.0200/0.3788, loss: 1085.6490, score:  0.310
+Apr-11 07:41:55.698 - update_title_pos
+Apr-11 07:41:55.826 - update_title_pos
+Apr-11 07:41:55.927 - update_title_pos
+Apr-11 07:41:56.011 - update_title_pos
+Apr-11 07:42:32.899 - [ 14][ 800/ 867] time for data/train: 0.0182/0.3486, loss: 1086.4989, score:  0.286
+Apr-11 07:42:32.993 - update_title_pos
+Apr-11 07:42:33.107 - update_title_pos
+Apr-11 07:42:33.189 - update_title_pos
+Apr-11 07:42:33.265 - update_title_pos
+Apr-11 07:42:57.985 - [ 14][ 867/ 867] time for data/train: 0.0191/0.2637, loss: 1087.1064, score:  0.291
+Apr-11 07:42:58.094 - update_title_pos
+Apr-11 07:42:58.228 - update_title_pos
+Apr-11 07:42:58.331 - update_title_pos
+Apr-11 07:42:58.414 - update_title_pos
+Apr-11 07:44:23.204 - [ 14]* Evaluation - score: 0.456 *
+Apr-11 07:44:23.272 - update_title_pos
+Apr-11 07:44:23.369 - update_title_pos
+Apr-11 07:44:23.436 - update_title_pos
+Apr-11 07:44:23.512 - update_title_pos
+Apr-11 07:45:03.349 - [ 15][ 100/ 867] time for data/train: 0.0251/0.3693, loss: 1086.7344, score:  0.320
+Apr-11 07:45:03.548 - update_title_pos
+Apr-11 07:45:03.691 - update_title_pos
+Apr-11 07:45:03.809 - update_title_pos
+Apr-11 07:45:03.901 - update_title_pos
+Apr-11 07:45:41.174 - [ 15][ 200/ 867] time for data/train: 0.0202/0.3697, loss: 1086.7710, score:  0.316
+Apr-11 07:45:41.282 - update_title_pos
+Apr-11 07:45:41.413 - update_title_pos
+Apr-11 07:45:41.514 - update_title_pos
+Apr-11 07:45:41.599 - update_title_pos
+Apr-11 07:46:18.954 - [ 15][ 300/ 867] time for data/train: 0.0207/0.3699, loss: 1085.5803, score:  0.303
+Apr-11 07:46:19.050 - update_title_pos
+Apr-11 07:46:19.170 - update_title_pos
+Apr-11 07:46:19.264 - update_title_pos
+Apr-11 07:46:19.352 - update_title_pos
+Apr-11 07:46:56.501 - [ 15][ 400/ 867] time for data/train: 0.0184/0.3546, loss: 1085.5375, score:  0.304
+Apr-11 07:46:56.612 - update_title_pos
+Apr-11 07:46:56.744 - update_title_pos
+Apr-11 07:46:56.844 - update_title_pos
+Apr-11 07:46:56.925 - update_title_pos
+Apr-11 07:47:34.288 - [ 15][ 500/ 867] time for data/train: 0.0195/0.3709, loss: 1086.0427, score:  0.347
+Apr-11 07:47:34.399 - update_title_pos
+Apr-11 07:47:34.530 - update_title_pos
+Apr-11 07:47:34.619 - update_title_pos
+Apr-11 07:47:34.696 - update_title_pos
+Apr-11 07:48:11.941 - [ 15][ 600/ 867] time for data/train: 0.0201/0.3675, loss: 1085.3448, score:  0.294
+Apr-11 07:48:12.055 - update_title_pos
+Apr-11 07:48:12.187 - update_title_pos
+Apr-11 07:48:12.294 - update_title_pos
+Apr-11 07:48:12.385 - update_title_pos
+Apr-11 07:48:49.299 - [ 15][ 700/ 867] time for data/train: 0.0173/0.3466, loss: 1085.3096, score:  0.302
+Apr-11 07:48:49.416 - update_title_pos
+Apr-11 07:48:49.546 - update_title_pos
+Apr-11 07:48:49.641 - update_title_pos
+Apr-11 07:48:49.718 - update_title_pos
+Apr-11 07:49:27.023 - [ 15][ 800/ 867] time for data/train: 0.0202/0.3623, loss: 1087.1309, score:  0.292
+Apr-11 07:49:27.153 - update_title_pos
+Apr-11 07:49:27.296 - update_title_pos
+Apr-11 07:49:27.404 - update_title_pos
+Apr-11 07:49:27.505 - update_title_pos
+Apr-11 07:49:52.620 - [ 15][ 867/ 867] time for data/train: 0.0190/0.2772, loss: 1086.3671, score:  0.284
+Apr-11 07:49:52.733 - update_title_pos
+Apr-11 07:49:52.871 - update_title_pos
+Apr-11 07:49:52.969 - update_title_pos
+Apr-11 07:49:53.056 - update_title_pos
+Apr-11 07:51:17.812 - [ 15]* Evaluation - score: 0.455 *
+Apr-11 07:51:17.882 - update_title_pos
+Apr-11 07:51:17.974 - update_title_pos
+Apr-11 07:51:18.039 - update_title_pos
+Apr-11 07:51:18.114 - update_title_pos
+Apr-11 07:51:57.397 - [ 16][ 100/ 867] time for data/train: 0.0205/0.3722, loss: 1085.8412, score:  0.378
+Apr-11 07:51:57.597 - update_title_pos
+Apr-11 07:51:57.737 - update_title_pos
+Apr-11 07:51:57.842 - update_title_pos
+Apr-11 07:51:57.932 - update_title_pos
+Apr-11 07:52:35.214 - [ 16][ 200/ 867] time for data/train: 0.0201/0.3491, loss: 1087.2498, score:  0.290
+Apr-11 07:52:35.325 - update_title_pos
+Apr-11 07:52:35.451 - update_title_pos
+Apr-11 07:52:35.539 - update_title_pos
+Apr-11 07:52:35.615 - update_title_pos
+Apr-11 07:53:13.225 - [ 16][ 300/ 867] time for data/train: 0.0190/0.3512, loss: 1086.1833, score:  0.326
+Apr-11 07:53:13.330 - update_title_pos
+Apr-11 07:53:13.450 - update_title_pos
+Apr-11 07:53:13.537 - update_title_pos
+Apr-11 07:53:13.618 - update_title_pos
+Apr-11 07:53:50.386 - [ 16][ 400/ 867] time for data/train: 0.0191/0.3651, loss: 1085.9872, score:  0.318
+Apr-11 07:53:50.498 - update_title_pos
+Apr-11 07:53:50.620 - update_title_pos
+Apr-11 07:53:50.709 - update_title_pos
+Apr-11 07:53:50.786 - update_title_pos
+Apr-11 07:54:27.776 - [ 16][ 500/ 867] time for data/train: 0.0201/0.3579, loss: 1085.2422, score:  0.334
+Apr-11 07:54:27.904 - update_title_pos
+Apr-11 07:54:28.039 - update_title_pos
+Apr-11 07:54:28.146 - update_title_pos
+Apr-11 07:54:28.239 - update_title_pos
+Apr-11 07:55:05.427 - [ 16][ 600/ 867] time for data/train: 0.0180/0.3518, loss: 1085.9175, score:  0.319
+Apr-11 07:55:05.538 - update_title_pos
+Apr-11 07:55:05.671 - update_title_pos
+Apr-11 07:55:05.773 - update_title_pos
+Apr-11 07:55:05.854 - update_title_pos
+Apr-11 07:55:43.059 - [ 16][ 700/ 867] time for data/train: 0.0190/0.3474, loss: 1084.6326, score:  0.271
+Apr-11 07:55:43.167 - update_title_pos
+Apr-11 07:55:43.296 - update_title_pos
+Apr-11 07:55:43.383 - update_title_pos
+Apr-11 07:55:43.462 - update_title_pos
+Apr-11 07:56:20.691 - [ 16][ 800/ 867] time for data/train: 0.0202/0.3723, loss: 1085.3578, score:  0.346
+Apr-11 07:56:20.808 - update_title_pos
+Apr-11 07:56:20.941 - update_title_pos
+Apr-11 07:56:21.051 - update_title_pos
+Apr-11 07:56:21.138 - update_title_pos
+Apr-11 07:56:45.645 - [ 16][ 867/ 867] time for data/train: 0.0189/0.2643, loss: 1086.1559, score:  0.274
+Apr-11 07:56:45.772 - update_title_pos
+Apr-11 07:56:45.903 - update_title_pos
+Apr-11 07:56:46.012 - update_title_pos
+Apr-11 07:56:46.104 - update_title_pos
+Apr-11 07:58:11.628 - [ 16]* Evaluation - score: 0.456 *
+Apr-11 07:58:11.702 - update_title_pos
+Apr-11 07:58:11.791 - update_title_pos
+Apr-11 07:58:11.860 - update_title_pos
+Apr-11 07:58:11.937 - update_title_pos
+Apr-11 07:58:51.100 - [ 17][ 100/ 867] time for data/train: 0.0212/0.3600, loss: 1087.6349, score:  0.335
+Apr-11 07:58:51.306 - update_title_pos
+Apr-11 07:58:51.465 - update_title_pos
+Apr-11 07:58:51.586 - update_title_pos
+Apr-11 07:58:51.700 - update_title_pos
+Apr-11 07:59:28.954 - [ 17][ 200/ 867] time for data/train: 0.0188/0.3502, loss: 1085.1726, score:  0.326
+Apr-11 07:59:29.070 - update_title_pos
+Apr-11 07:59:29.192 - update_title_pos
+Apr-11 07:59:29.282 - update_title_pos
+Apr-11 07:59:29.357 - update_title_pos
+Apr-11 08:00:06.843 - [ 17][ 300/ 867] time for data/train: 0.0198/0.3684, loss: 1086.5984, score:  0.292
+Apr-11 08:00:06.967 - update_title_pos
+Apr-11 08:00:07.094 - update_title_pos
+Apr-11 08:00:07.200 - update_title_pos
+Apr-11 08:00:07.288 - update_title_pos
+Apr-11 08:00:43.936 - [ 17][ 400/ 867] time for data/train: 0.0176/0.3492, loss: 1085.7307, score:  0.273
+Apr-11 08:00:44.048 - update_title_pos
+Apr-11 08:00:44.185 - update_title_pos
+Apr-11 08:00:44.287 - update_title_pos
+Apr-11 08:00:44.370 - update_title_pos
+Apr-11 08:01:21.499 - [ 17][ 500/ 867] time for data/train: 0.0181/0.3557, loss: 1086.9532, score:  0.290
+Apr-11 08:01:21.605 - update_title_pos
+Apr-11 08:01:21.727 - update_title_pos
+Apr-11 08:01:21.822 - update_title_pos
+Apr-11 08:01:21.901 - update_title_pos
+Apr-11 08:01:59.105 - [ 17][ 600/ 867] time for data/train: 0.0194/0.3700, loss: 1084.8442, score:  0.298
+Apr-11 08:01:59.227 - update_title_pos
+Apr-11 08:01:59.357 - update_title_pos
+Apr-11 08:01:59.460 - update_title_pos
+Apr-11 08:01:59.552 - update_title_pos
+Apr-11 08:02:36.773 - [ 17][ 700/ 867] time for data/train: 0.0232/0.3714, loss: 1086.0259, score:  0.330
+Apr-11 08:02:36.900 - update_title_pos
+Apr-11 08:02:37.030 - update_title_pos
+Apr-11 08:02:37.131 - update_title_pos
+Apr-11 08:02:37.213 - update_title_pos
+Apr-11 08:03:14.350 - [ 17][ 800/ 867] time for data/train: 0.0197/0.3703, loss: 1086.0175, score:  0.323
+Apr-11 08:03:14.471 - update_title_pos
+Apr-11 08:03:14.601 - update_title_pos
+Apr-11 08:03:14.710 - update_title_pos
+Apr-11 08:03:14.794 - update_title_pos
+Apr-11 08:03:39.726 - [ 17][ 867/ 867] time for data/train: 0.0190/0.2748, loss: 1086.8282, score:  0.331
+Apr-11 08:03:39.845 - update_title_pos
+Apr-11 08:03:39.968 - update_title_pos
+Apr-11 08:03:40.058 - update_title_pos
+Apr-11 08:03:40.137 - update_title_pos
+Apr-11 08:05:05.784 - [ 17]* Evaluation - score: 0.453 *
+Apr-11 08:05:05.861 - update_title_pos
+Apr-11 08:05:05.958 - update_title_pos
+Apr-11 08:05:06.024 - update_title_pos
+Apr-11 08:05:06.103 - update_title_pos
+Apr-11 08:05:45.389 - [ 18][ 100/ 867] time for data/train: 0.0198/0.3656, loss: 1084.9075, score:  0.339
+Apr-11 08:05:45.596 - update_title_pos
+Apr-11 08:05:45.754 - update_title_pos
+Apr-11 08:05:45.860 - update_title_pos
+Apr-11 08:05:45.949 - update_title_pos
+Apr-11 08:06:23.561 - [ 18][ 200/ 867] time for data/train: 0.0184/0.3622, loss: 1088.0457, score:  0.358
+Apr-11 08:06:23.690 - update_title_pos
+Apr-11 08:06:23.823 - update_title_pos
+Apr-11 08:06:23.930 - update_title_pos
+Apr-11 08:06:24.015 - update_title_pos
+Apr-11 08:07:01.645 - [ 18][ 300/ 867] time for data/train: 0.0196/0.3672, loss: 1085.2230, score:  0.344
+Apr-11 08:07:01.776 - update_title_pos
+Apr-11 08:07:01.929 - update_title_pos
+Apr-11 08:07:02.047 - update_title_pos
+Apr-11 08:07:02.147 - update_title_pos
+Apr-11 08:07:39.402 - [ 18][ 400/ 867] time for data/train: 0.0181/0.3572, loss: 1085.8867, score:  0.318
+Apr-11 08:07:39.521 - update_title_pos
+Apr-11 08:07:39.650 - update_title_pos
+Apr-11 08:07:39.746 - update_title_pos
+Apr-11 08:07:39.825 - update_title_pos
+Apr-11 08:08:16.834 - [ 18][ 500/ 867] time for data/train: 0.0207/0.3563, loss: 1086.2125, score:  0.350
+Apr-11 08:08:16.970 - update_title_pos
+Apr-11 08:08:17.120 - update_title_pos
+Apr-11 08:08:17.234 - update_title_pos
+Apr-11 08:08:17.332 - update_title_pos
+Apr-11 08:08:54.032 - [ 18][ 600/ 867] time for data/train: 0.0197/0.3682, loss: 1086.6858, score:  0.323
+Apr-11 08:08:54.155 - update_title_pos
+Apr-11 08:08:54.291 - update_title_pos
+Apr-11 08:08:54.401 - update_title_pos
+Apr-11 08:08:54.493 - update_title_pos
+Apr-11 08:09:31.884 - [ 18][ 700/ 867] time for data/train: 0.0194/0.3611, loss: 1086.3958, score:  0.331
+Apr-11 08:09:32.014 - update_title_pos
+Apr-11 08:09:32.150 - update_title_pos
+Apr-11 08:09:32.256 - update_title_pos
+Apr-11 08:09:32.345 - update_title_pos
+Apr-11 08:10:09.636 - [ 18][ 800/ 867] time for data/train: 0.0198/0.3716, loss: 1085.8708, score:  0.309
+Apr-11 08:10:09.773 - update_title_pos
+Apr-11 08:10:09.909 - update_title_pos
+Apr-11 08:10:10.014 - update_title_pos
+Apr-11 08:10:10.104 - update_title_pos
+Apr-11 08:10:34.824 - [ 18][ 867/ 867] time for data/train: 0.0202/0.2551, loss: 1085.1638, score:  0.349
+Apr-11 08:10:34.955 - update_title_pos
+Apr-11 08:10:35.090 - update_title_pos
+Apr-11 08:10:35.187 - update_title_pos
+Apr-11 08:10:35.269 - update_title_pos
+Apr-11 08:12:00.710 - [ 18]* Evaluation - score: 0.455 *
+Apr-11 08:12:00.788 - update_title_pos
+Apr-11 08:12:00.879 - update_title_pos
+Apr-11 08:12:00.945 - update_title_pos
+Apr-11 08:12:01.015 - update_title_pos
+Apr-11 08:12:40.580 - [ 19][ 100/ 867] time for data/train: 0.0213/0.3701, loss: 1086.6005, score:  0.345
+Apr-11 08:12:40.791 - update_title_pos
+Apr-11 08:12:40.942 - update_title_pos
+Apr-11 08:12:41.051 - update_title_pos
+Apr-11 08:12:41.147 - update_title_pos
+Apr-11 08:13:18.659 - [ 19][ 200/ 867] time for data/train: 0.0200/0.3460, loss: 1086.7406, score:  0.305
+Apr-11 08:13:18.786 - update_title_pos
+Apr-11 08:13:18.915 - update_title_pos
+Apr-11 08:13:19.015 - update_title_pos
+Apr-11 08:13:19.094 - update_title_pos
+Apr-11 08:13:56.886 - [ 19][ 300/ 867] time for data/train: 0.0200/0.3653, loss: 1085.1361, score:  0.375
+Apr-11 08:13:57.018 - update_title_pos
+Apr-11 08:13:57.160 - update_title_pos
+Apr-11 08:13:57.270 - update_title_pos
+Apr-11 08:13:57.357 - update_title_pos
+Apr-11 08:14:34.387 - [ 19][ 400/ 867] time for data/train: 0.0190/0.3535, loss: 1086.3524, score:  0.312
+Apr-11 08:14:34.515 - update_title_pos
+Apr-11 08:14:34.645 - update_title_pos
+Apr-11 08:14:34.748 - update_title_pos
+Apr-11 08:14:34.829 - update_title_pos
+Apr-11 08:15:12.462 - [ 19][ 500/ 867] time for data/train: 0.0202/0.3698, loss: 1085.4104, score:  0.342
+Apr-11 08:15:12.603 - update_title_pos
+Apr-11 08:15:12.755 - update_title_pos
+Apr-11 08:15:12.873 - update_title_pos
+Apr-11 08:15:12.975 - update_title_pos
+Apr-11 08:15:50.132 - [ 19][ 600/ 867] time for data/train: 0.0183/0.3695, loss: 1084.5493, score:  0.348
+Apr-11 08:15:50.266 - update_title_pos
+Apr-11 08:15:50.403 - update_title_pos
+Apr-11 08:15:50.512 - update_title_pos
+Apr-11 08:15:50.609 - update_title_pos
+Apr-11 08:16:27.536 - [ 19][ 700/ 867] time for data/train: 0.0216/0.3698, loss: 1086.9675, score:  0.297
+Apr-11 08:16:27.675 - update_title_pos
+Apr-11 08:16:27.826 - update_title_pos
+Apr-11 08:16:27.946 - update_title_pos
+Apr-11 08:16:28.049 - update_title_pos
+Apr-11 08:17:05.228 - [ 19][ 800/ 867] time for data/train: 0.0196/0.3735, loss: 1087.0836, score:  0.326
+Apr-11 08:17:05.365 - update_title_pos
+Apr-11 08:17:05.501 - update_title_pos
+Apr-11 08:17:05.613 - update_title_pos
+Apr-11 08:17:05.699 - update_title_pos
+Apr-11 08:17:30.849 - [ 19][ 867/ 867] time for data/train: 0.0183/0.2638, loss: 1085.2062, score:  0.323
+Apr-11 08:17:30.977 - update_title_pos
+Apr-11 08:17:31.100 - update_title_pos
+Apr-11 08:17:31.191 - update_title_pos
+Apr-11 08:17:31.268 - update_title_pos
+Apr-11 08:18:56.756 - [ 19]* Evaluation - score: 0.453 *
+Apr-11 08:18:56.837 - update_title_pos
+Apr-11 08:18:56.932 - update_title_pos
+Apr-11 08:18:57.002 - update_title_pos
+Apr-11 08:18:57.086 - update_title_pos
+Apr-11 08:19:36.863 - [ 20][ 100/ 867] time for data/train: 0.0241/0.3733, loss: 1085.2314, score:  0.350
+Apr-11 08:19:37.075 - update_title_pos
+Apr-11 08:19:37.227 - update_title_pos
+Apr-11 08:19:37.333 - update_title_pos
+Apr-11 08:19:37.421 - update_title_pos
+Apr-11 08:20:14.609 - [ 20][ 200/ 867] time for data/train: 0.0195/0.3534, loss: 1085.6599, score:  0.310
+Apr-11 08:20:14.740 - update_title_pos
+Apr-11 08:20:14.856 - update_title_pos
+Apr-11 08:20:14.947 - update_title_pos
+Apr-11 08:20:15.036 - update_title_pos
+Apr-11 08:20:52.030 - [ 20][ 300/ 867] time for data/train: 0.0203/0.3723, loss: 1085.8199, score:  0.325
+Apr-11 08:20:52.179 - update_title_pos
+Apr-11 08:20:52.318 - update_title_pos
+Apr-11 08:20:52.426 - update_title_pos
+Apr-11 08:20:52.515 - update_title_pos
+Apr-11 08:21:29.472 - [ 20][ 400/ 867] time for data/train: 0.0185/0.3506, loss: 1085.2018, score:  0.320
+Apr-11 08:21:29.600 - update_title_pos
+Apr-11 08:21:29.717 - update_title_pos
+Apr-11 08:21:29.807 - update_title_pos
+Apr-11 08:21:29.883 - update_title_pos
+Apr-11 08:22:07.221 - [ 20][ 500/ 867] time for data/train: 0.0188/0.3610, loss: 1084.9857, score:  0.328
+Apr-11 08:22:07.358 - update_title_pos
+Apr-11 08:22:07.494 - update_title_pos
+Apr-11 08:22:07.607 - update_title_pos
+Apr-11 08:22:07.689 - update_title_pos
+Apr-11 08:22:44.696 - [ 20][ 600/ 867] time for data/train: 0.0208/0.3584, loss: 1086.4626, score:  0.345
+Apr-11 08:22:44.824 - update_title_pos
+Apr-11 08:22:44.940 - update_title_pos
+Apr-11 08:22:45.034 - update_title_pos
+Apr-11 08:22:45.112 - update_title_pos
+Apr-11 08:23:22.100 - [ 20][ 700/ 867] time for data/train: 0.0193/0.3485, loss: 1085.7618, score:  0.332
+Apr-11 08:23:22.232 - update_title_pos
+Apr-11 08:23:22.346 - update_title_pos
+Apr-11 08:23:22.435 - update_title_pos
+Apr-11 08:23:22.514 - update_title_pos
+Apr-11 08:23:59.349 - [ 20][ 800/ 867] time for data/train: 0.0178/0.3500, loss: 1085.0363, score:  0.321
+Apr-11 08:23:59.480 - update_title_pos
+Apr-11 08:23:59.617 - update_title_pos
+Apr-11 08:23:59.731 - update_title_pos
+Apr-11 08:23:59.831 - update_title_pos
+Apr-11 08:24:24.891 - [ 20][ 867/ 867] time for data/train: 0.0193/0.2646, loss: 1085.3352, score:  0.312
+Apr-11 08:24:25.040 - update_title_pos
+Apr-11 08:24:25.175 - update_title_pos
+Apr-11 08:24:25.286 - update_title_pos
+Apr-11 08:24:25.380 - update_title_pos
+Apr-11 08:25:50.381 - [ 20]* Evaluation - score: 0.453 *
+Apr-11 08:25:50.472 - update_title_pos
+Apr-11 08:25:50.574 - update_title_pos
+Apr-11 08:25:50.649 - update_title_pos
+Apr-11 08:25:50.732 - update_title_pos
+Apr-11 08:26:30.192 - [ 21][ 100/ 867] time for data/train: 0.0193/0.3535, loss: 1083.4106, score:  0.341
+Apr-11 08:26:30.398 - update_title_pos
+Apr-11 08:26:30.550 - update_title_pos
+Apr-11 08:26:30.659 - update_title_pos
+Apr-11 08:26:30.758 - update_title_pos
+Apr-11 08:27:07.962 - [ 21][ 200/ 867] time for data/train: 0.0210/0.3597, loss: 1087.5833, score:  0.356
+Apr-11 08:27:08.113 - update_title_pos
+Apr-11 08:27:08.257 - update_title_pos
+Apr-11 08:27:08.371 - update_title_pos
+Apr-11 08:27:08.474 - update_title_pos
+Apr-11 08:27:46.077 - [ 21][ 300/ 867] time for data/train: 0.0183/0.3655, loss: 1087.5385, score:  0.389
+Apr-11 08:27:46.230 - update_title_pos
+Apr-11 08:27:46.355 - update_title_pos
+Apr-11 08:27:46.457 - update_title_pos
+Apr-11 08:27:46.543 - update_title_pos
+Apr-11 08:28:23.918 - [ 21][ 400/ 867] time for data/train: 0.0177/0.3522, loss: 1086.2323, score:  0.350
+Apr-11 08:28:24.060 - update_title_pos
+Apr-11 08:28:24.176 - update_title_pos
+Apr-11 08:28:24.266 - update_title_pos
+Apr-11 08:28:24.343 - update_title_pos
+Apr-11 08:29:01.273 - [ 21][ 500/ 867] time for data/train: 0.0189/0.3509, loss: 1085.0442, score:  0.355
+Apr-11 08:29:01.397 - update_title_pos
+Apr-11 08:29:01.524 - update_title_pos
+Apr-11 08:29:01.619 - update_title_pos
+Apr-11 08:29:01.700 - update_title_pos
+Apr-11 08:29:38.902 - [ 21][ 600/ 867] time for data/train: 0.0197/0.3673, loss: 1087.0416, score:  0.331
+Apr-11 08:29:39.049 - update_title_pos
+Apr-11 08:29:39.175 - update_title_pos
+Apr-11 08:29:39.281 - update_title_pos
+Apr-11 08:29:39.371 - update_title_pos
+Apr-11 08:30:16.907 - [ 21][ 700/ 867] time for data/train: 0.0180/0.3527, loss: 1087.0729, score:  0.327
+Apr-11 08:30:17.039 - update_title_pos
+Apr-11 08:30:17.155 - update_title_pos
+Apr-11 08:30:17.247 - update_title_pos
+Apr-11 08:30:17.323 - update_title_pos
+Apr-11 08:30:54.359 - [ 21][ 800/ 867] time for data/train: 0.0195/0.3694, loss: 1085.5905, score:  0.370
+Apr-11 08:30:54.511 - update_title_pos
+Apr-11 08:30:54.645 - update_title_pos
+Apr-11 08:30:54.753 - update_title_pos
+Apr-11 08:30:54.838 - update_title_pos
+Apr-11 08:31:19.477 - [ 21][ 867/ 867] time for data/train: 0.0178/0.2602, loss: 1085.0604, score:  0.355
+Apr-11 08:31:19.604 - update_title_pos
+Apr-11 08:31:19.723 - update_title_pos
+Apr-11 08:31:19.814 - update_title_pos
+Apr-11 08:31:19.893 - update_title_pos
+Apr-11 08:32:45.202 - [ 21]* Evaluation - score: 0.451 *
+Apr-11 08:32:45.290 - update_title_pos
+Apr-11 08:32:45.384 - update_title_pos
+Apr-11 08:32:45.453 - update_title_pos
+Apr-11 08:32:45.531 - update_title_pos
+Apr-11 08:33:25.176 - [ 22][ 100/ 867] time for data/train: 0.0214/0.3635, loss: 1084.8064, score:  0.380
+Apr-11 08:33:25.383 - update_title_pos
+Apr-11 08:33:25.522 - update_title_pos
+Apr-11 08:33:25.624 - update_title_pos
+Apr-11 08:33:25.709 - update_title_pos
+Apr-11 08:34:02.869 - [ 22][ 200/ 867] time for data/train: 0.0213/0.3796, loss: 1084.8282, score:  0.381
+Apr-11 08:34:03.019 - update_title_pos
+Apr-11 08:34:03.145 - update_title_pos
+Apr-11 08:34:03.244 - update_title_pos
+Apr-11 08:34:03.329 - update_title_pos
+Apr-11 08:34:40.530 - [ 22][ 300/ 867] time for data/train: 0.0191/0.3534, loss: 1086.7146, score:  0.327
+Apr-11 08:34:40.679 - update_title_pos
+Apr-11 08:34:40.810 - update_title_pos
+Apr-11 08:34:40.922 - update_title_pos
+Apr-11 08:34:41.016 - update_title_pos
+Apr-11 08:35:18.499 - [ 22][ 400/ 867] time for data/train: 0.0204/0.3720, loss: 1084.9736, score:  0.371
+Apr-11 08:35:18.656 - update_title_pos
+Apr-11 08:35:18.793 - update_title_pos
+Apr-11 08:35:18.907 - update_title_pos
+Apr-11 08:35:19.004 - update_title_pos
+Apr-11 08:35:56.471 - [ 22][ 500/ 867] time for data/train: 0.0218/0.3657, loss: 1086.1826, score:  0.344
+Apr-11 08:35:56.627 - update_title_pos
+Apr-11 08:35:56.762 - update_title_pos
+Apr-11 08:35:56.868 - update_title_pos
+Apr-11 08:35:56.957 - update_title_pos
+Apr-11 08:36:33.979 - [ 22][ 600/ 867] time for data/train: 0.0258/0.3501, loss: 1083.4713, score:  0.356
+Apr-11 08:36:34.136 - update_title_pos
+Apr-11 08:36:34.275 - update_title_pos
+Apr-11 08:36:34.393 - update_title_pos
+Apr-11 08:36:34.492 - update_title_pos
+Apr-11 08:37:11.886 - [ 22][ 700/ 867] time for data/train: 0.0186/0.3519, loss: 1086.3180, score:  0.354
+Apr-11 08:37:12.017 - update_title_pos
+Apr-11 08:37:12.145 - update_title_pos
+Apr-11 08:37:12.245 - update_title_pos
+Apr-11 08:37:12.329 - update_title_pos
+Apr-11 08:37:49.567 - [ 22][ 800/ 867] time for data/train: 0.0188/0.3526, loss: 1086.7754, score:  0.340
+Apr-11 08:37:49.713 - update_title_pos
+Apr-11 08:37:49.840 - update_title_pos
+Apr-11 08:37:49.940 - update_title_pos
+Apr-11 08:37:50.021 - update_title_pos
+Apr-11 08:38:15.044 - [ 22][ 867/ 867] time for data/train: 0.0185/0.2720, loss: 1085.7517, score:  0.335
+Apr-11 08:38:15.195 - update_title_pos
+Apr-11 08:38:15.331 - update_title_pos
+Apr-11 08:38:15.444 - update_title_pos
+Apr-11 08:38:15.532 - update_title_pos
+Apr-11 08:39:40.777 - [ 22]* Evaluation - score: 0.452 *
+Apr-11 08:39:40.861 - update_title_pos
+Apr-11 08:39:40.951 - update_title_pos
+Apr-11 08:39:41.015 - update_title_pos
+Apr-11 08:39:41.090 - update_title_pos
+Apr-11 08:40:20.561 - [ 23][ 100/ 867] time for data/train: 0.0214/0.3704, loss: 1085.5582, score:  0.365
+Apr-11 08:40:20.788 - update_title_pos
+Apr-11 08:40:20.941 - update_title_pos
+Apr-11 08:40:21.060 - update_title_pos
+Apr-11 08:40:21.156 - update_title_pos
+Apr-11 08:40:58.608 - [ 23][ 200/ 867] time for data/train: 0.0269/0.3760, loss: 1085.2721, score:  0.368
+Apr-11 08:40:58.773 - update_title_pos
+Apr-11 08:40:58.937 - update_title_pos
+Apr-11 08:40:59.061 - update_title_pos
+Apr-11 08:40:59.165 - update_title_pos
+Apr-11 08:41:36.711 - [ 23][ 300/ 867] time for data/train: 0.0188/0.3647, loss: 1085.1993, score:  0.383
+Apr-11 08:41:36.871 - update_title_pos
+Apr-11 08:41:37.017 - update_title_pos
+Apr-11 08:41:37.137 - update_title_pos
+Apr-11 08:41:37.236 - update_title_pos
+Apr-11 08:42:14.038 - [ 23][ 400/ 867] time for data/train: 0.0182/0.3484, loss: 1087.1899, score:  0.327
+Apr-11 08:42:14.179 - update_title_pos
+Apr-11 08:42:14.303 - update_title_pos
+Apr-11 08:42:14.403 - update_title_pos
+Apr-11 08:42:14.490 - update_title_pos
+Apr-11 08:42:51.606 - [ 23][ 500/ 867] time for data/train: 0.0174/0.3510, loss: 1087.2501, score:  0.385
+Apr-11 08:42:51.747 - update_title_pos
+Apr-11 08:42:51.863 - update_title_pos
+Apr-11 08:42:51.958 - update_title_pos
+Apr-11 08:42:52.037 - update_title_pos
+Apr-11 08:43:29.564 - [ 23][ 600/ 867] time for data/train: 0.0200/0.3669, loss: 1086.0073, score:  0.382
+Apr-11 08:43:29.701 - update_title_pos
+Apr-11 08:43:29.823 - update_title_pos
+Apr-11 08:43:29.922 - update_title_pos
+Apr-11 08:43:30.001 - update_title_pos
+Apr-11 08:44:07.261 - [ 23][ 700/ 867] time for data/train: 0.0192/0.3722, loss: 1085.9554, score:  0.391
+Apr-11 08:44:07.443 - update_title_pos
+Apr-11 08:44:07.580 - update_title_pos
+Apr-11 08:44:07.694 - update_title_pos
+Apr-11 08:44:07.790 - update_title_pos
+Apr-11 08:44:44.692 - [ 23][ 800/ 867] time for data/train: 0.0199/0.3656, loss: 1085.2811, score:  0.365
+Apr-11 08:44:44.859 - update_title_pos
+Apr-11 08:44:44.995 - update_title_pos
+Apr-11 08:44:45.111 - update_title_pos
+Apr-11 08:44:45.199 - update_title_pos
+Apr-11 08:45:10.255 - [ 23][ 867/ 867] time for data/train: 0.0228/0.2651, loss: 1086.8470, score:  0.332
+Apr-11 08:45:10.428 - update_title_pos
+Apr-11 08:45:10.578 - update_title_pos
+Apr-11 08:45:10.703 - update_title_pos
+Apr-11 08:45:10.807 - update_title_pos
+Apr-11 08:46:35.737 - [ 23]* Evaluation - score: 0.451 *
+Apr-11 08:46:35.832 - update_title_pos
+Apr-11 08:46:35.923 - update_title_pos
+Apr-11 08:46:35.991 - update_title_pos
+Apr-11 08:46:36.069 - update_title_pos
+Apr-11 08:47:15.629 - [ 24][ 100/ 867] time for data/train: 0.0217/0.3674, loss: 1085.7081, score:  0.415
+Apr-11 08:47:15.872 - update_title_pos
+Apr-11 08:47:16.035 - update_title_pos
+Apr-11 08:47:16.159 - update_title_pos
+Apr-11 08:47:16.263 - update_title_pos
+Apr-11 08:47:53.943 - [ 24][ 200/ 867] time for data/train: 0.0196/0.3687, loss: 1085.4628, score:  0.410
+Apr-11 08:47:54.126 - update_title_pos
+Apr-11 08:47:54.263 - update_title_pos
+Apr-11 08:47:54.383 - update_title_pos
+Apr-11 08:47:54.480 - update_title_pos
+Apr-11 08:48:31.928 - [ 24][ 300/ 867] time for data/train: 0.0183/0.3494, loss: 1085.1447, score:  0.374
+Apr-11 08:48:32.072 - update_title_pos
+Apr-11 08:48:32.193 - update_title_pos
+Apr-11 08:48:32.288 - update_title_pos
+Apr-11 08:48:32.368 - update_title_pos
+Apr-11 08:49:09.672 - [ 24][ 400/ 867] time for data/train: 0.0179/0.3505, loss: 1086.6312, score:  0.387
+Apr-11 08:49:09.810 - update_title_pos
+Apr-11 08:49:09.937 - update_title_pos
+Apr-11 08:49:10.036 - update_title_pos
+Apr-11 08:49:10.122 - update_title_pos
+Apr-11 08:49:47.236 - [ 24][ 500/ 867] time for data/train: 0.0194/0.3670, loss: 1086.5366, score:  0.367
+Apr-11 08:49:47.406 - update_title_pos
+Apr-11 08:49:47.549 - update_title_pos
+Apr-11 08:49:47.668 - update_title_pos
+Apr-11 08:49:47.766 - update_title_pos
+Apr-11 08:50:25.105 - [ 24][ 600/ 867] time for data/train: 0.0191/0.3634, loss: 1086.6111, score:  0.400
+Apr-11 08:50:25.284 - update_title_pos
+Apr-11 08:50:25.409 - update_title_pos
+Apr-11 08:50:25.506 - update_title_pos
+Apr-11 08:50:25.583 - update_title_pos
+Apr-11 08:51:02.444 - [ 24][ 700/ 867] time for data/train: 0.0199/0.3544, loss: 1086.0822, score:  0.335
+Apr-11 08:51:02.601 - update_title_pos
+Apr-11 08:51:02.728 - update_title_pos
+Apr-11 08:51:02.826 - update_title_pos
+Apr-11 08:51:02.910 - update_title_pos
+Apr-11 08:51:40.069 - [ 24][ 800/ 867] time for data/train: 0.0195/0.3599, loss: 1086.4429, score:  0.403
+Apr-11 08:51:40.241 - update_title_pos
+Apr-11 08:51:40.374 - update_title_pos
+Apr-11 08:51:40.477 - update_title_pos
+Apr-11 08:51:40.553 - update_title_pos
+Apr-11 08:52:05.358 - [ 24][ 867/ 867] time for data/train: 0.0199/0.2648, loss: 1086.5565, score:  0.395
+Apr-11 08:52:05.529 - update_title_pos
+Apr-11 08:52:05.659 - update_title_pos
+Apr-11 08:52:05.774 - update_title_pos
+Apr-11 08:52:05.859 - update_title_pos
+Apr-11 08:53:30.197 - [ 24]* Evaluation - score: 0.449 *
+Apr-11 08:53:30.300 - update_title_pos
+Apr-11 08:53:30.394 - update_title_pos
+Apr-11 08:53:30.466 - update_title_pos
+Apr-11 08:53:30.547 - update_title_pos
+Apr-11 08:54:09.871 - [ 25][ 100/ 867] time for data/train: 0.0225/0.3536, loss: 1084.9309, score:  0.398
+Apr-11 08:54:10.099 - update_title_pos
+Apr-11 08:54:10.232 - update_title_pos
+Apr-11 08:54:10.329 - update_title_pos
+Apr-11 08:54:10.412 - update_title_pos
+Apr-11 08:54:48.103 - [ 25][ 200/ 867] time for data/train: 0.0183/0.3579, loss: 1085.4298, score:  0.398
+Apr-11 08:54:48.259 - update_title_pos
+Apr-11 08:54:48.380 - update_title_pos
+Apr-11 08:54:48.475 - update_title_pos
+Apr-11 08:54:48.549 - update_title_pos
+Apr-11 08:55:25.810 - [ 25][ 300/ 867] time for data/train: 0.0218/0.3502, loss: 1085.6346, score:  0.387
+Apr-11 08:55:25.986 - update_title_pos
+Apr-11 08:55:26.128 - update_title_pos
+Apr-11 08:55:26.245 - update_title_pos
+Apr-11 08:55:26.344 - update_title_pos
+Apr-11 08:56:03.767 - [ 25][ 400/ 867] time for data/train: 0.0202/0.3690, loss: 1084.6204, score:  0.366
+Apr-11 08:56:03.938 - update_title_pos
+Apr-11 08:56:04.073 - update_title_pos
+Apr-11 08:56:04.186 - update_title_pos
+Apr-11 08:56:04.272 - update_title_pos
+Apr-11 08:56:41.344 - [ 25][ 500/ 867] time for data/train: 0.0221/0.3589, loss: 1085.5645, score:  0.377
+Apr-11 08:56:41.534 - update_title_pos
+Apr-11 08:56:41.677 - update_title_pos
+Apr-11 08:56:41.798 - update_title_pos
+Apr-11 08:56:41.891 - update_title_pos
+Apr-11 08:57:19.227 - [ 25][ 600/ 867] time for data/train: 0.0173/0.3519, loss: 1085.0513, score:  0.366
+Apr-11 08:57:19.376 - update_title_pos
+Apr-11 08:57:19.490 - update_title_pos
+Apr-11 08:57:19.589 - update_title_pos
+Apr-11 08:57:19.667 - update_title_pos
+Apr-11 08:57:56.300 - [ 25][ 700/ 867] time for data/train: 0.0184/0.3525, loss: 1086.2941, score:  0.378
+Apr-11 08:57:56.451 - update_title_pos
+Apr-11 08:57:56.564 - update_title_pos
+Apr-11 08:57:56.658 - update_title_pos
+Apr-11 08:57:56.735 - update_title_pos
+Apr-11 08:58:34.090 - [ 25][ 800/ 867] time for data/train: 0.0177/0.3430, loss: 1085.9269, score:  0.352
+Apr-11 08:58:34.270 - update_title_pos
+Apr-11 08:58:34.401 - update_title_pos
+Apr-11 08:58:34.520 - update_title_pos
+Apr-11 08:58:34.605 - update_title_pos
+Apr-11 08:58:59.699 - [ 25][ 867/ 867] time for data/train: 0.0192/0.2664, loss: 1088.4200, score:  0.374
+Apr-11 08:58:59.862 - update_title_pos
+Apr-11 08:58:59.994 - update_title_pos
+Apr-11 08:59:00.107 - update_title_pos
+Apr-11 08:59:00.197 - update_title_pos
+Apr-11 09:00:25.405 - [ 25]* Evaluation - score: 0.449 *
+Apr-11 09:00:25.506 - update_title_pos
+Apr-11 09:00:25.611 - update_title_pos
+Apr-11 09:00:25.685 - update_title_pos
+Apr-11 09:00:25.772 - update_title_pos
+Apr-11 09:00:26.004 - Done
