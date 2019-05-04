@@ -47,18 +47,26 @@ class Model(nn.Module):
         self.gthp_i = nn.Linear(2048, hid_dim)
         self.gth_clf = nn.Linear(hid_dim, hid_dim)
         self.gthp_clf = nn.Linear(hid_dim, hid_dim)
-
-    def ngram_func(self, in_channels, out_channels, kernel_size):
-        return nn.Sequential(
-            nn.Conv2d(in_channels, out_channels, kernel_size),
+        
+        # Hierarchical Attention
+        self.unigram = nn.Sequential(
+            nn.Conv2d(1, 1, (1, 300)),
+            nn.ReLU())
+        
+        self.bigram = nn.Sequential(
+            nn.Conv2d(1, 5, (2, 300)),
             nn.ReLU(),
-            nn.MaxPool2d(kernel_size))
-
-    def unigram_func(self, in_channels, out_channels, kernel_size):
-        return nn.Sequential(
-            nn.Conv2d(in_channels, out_channels, kernel_size),
-            nn.ReLU()
-            )
+            nn.MaxPool2d((13, 1)))
+        
+        self.trigram = nn.Sequential(
+            nn.Conv2d(1, 5, (3, 300)),
+            nn.ReLU(),
+            nn.MaxPool2d((12, 1)))
+        
+        self.fourgram = nn.Sequential(
+            nn.Conv2d(1, 5, (4, 300)),
+            nn.ReLU(),
+            nn.MaxPool2d((11, 1)))
 
     def forward(self, image, question):
         """
@@ -67,14 +75,19 @@ class Model(nn.Module):
         """
         # question encoding
         emb = self.wembed(question)                 # (batch, seqlen, emb_dim)
+        question_embedding_f = emb[:,None,:,:]
         enc, hid = self.gru(emb.permute(1, 0, 2))   # (seqlen, batch, hid_dim)
         qenc = enc[-1]                              # (batch, hid_dim)
         
         # Hierarchical Attention
-        unigram = self.unigram_func(1, 1, (1, 300)).squeeze_()  
-        bigram = self.ngram_func(1, 5, (2, 300)).squeeze_()
-        trigram = self.ngram_func(1, 5, (3, 300)).squeeze_()
-        fourgram = self.ngram_func(1, 5, (4, 300)).squeeze_()
+        unigram = self.unigram(question_embedding_f)
+        unigram.squeeze_()  
+        bigram = self.bigram(question_embedding_f)
+        bigram.squeeze_()
+        trigram = self.trigram(question_embedding_f)
+        trigram.squeeze_()
+        fourgram = self.fourgram(question_embedding_f)
+        fourgram.squeeze_()
         allgrams = torch.cat((unigram, bigram, trigram, fourgram), dim = -1)
         qenc = torch.cat((allgrams, qenc), dim = -1)
 
