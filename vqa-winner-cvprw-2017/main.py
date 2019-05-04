@@ -12,7 +12,7 @@ import torch.nn.functional as F
 import numpy as np
 from tqdm import tqdm
 
-from model_StackedAttention import Model
+from model_HierarchicalAttention import Model
 from utils import GOATLogger, save_ckpt, compute_score
 from data_loader import prepare_data
 
