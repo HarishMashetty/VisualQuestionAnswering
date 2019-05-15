@@ -7,7 +7,7 @@
   - Dual Stacked attention of image instead of one-glimpse.
   - Hierarchical co-Attention of text and attended image from one-glimpse.
   
-## [Project Architecture]
+## Project Architecture
 https://github.com/HarishMashetty/VisualQuestionAnswering/blob/master/Project%20Proposal/Project%20Architecture.jpg
 
 ## Resources
