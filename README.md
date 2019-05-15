@@ -4,6 +4,6 @@
 
 
 ## Following improvements are made on top of existing solution above:
-  - Implementation of Stacked Attention (Multiple Layers) on images.
+  - Dual Stacked attention of image instead of one-glimpse.
   - Hierarchical co-Attention of text and attended image from one-glimpse.
   
